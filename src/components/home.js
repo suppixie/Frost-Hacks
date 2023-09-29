@@ -1,13 +1,33 @@
 import React from "react";
-import icebg from '../assets/art3.png'
-import icebg2 from '../assets/art3 - Copy.png'
-import tree from '../assets/trees1.png';
 import { Link } from "react-router-dom";
 import "../components/home.css";
+
+import icebg from '../assets/art3.png'
+import icebg2 from '../assets/art7.png';
+import art5 from '../assets/art6.png'
+import lamp from '../assets/checkpoint.png';
+import trees from '../assets/trees1.png';
+import rocks from '../assets/rocks5.png'
+import crystal1 from '../assets/sculpture1.png';
+import crystal2 from '../assets/sculpture2.png';
+import crystal3 from '../assets/crystal3.png';
+import crystal4 from '../assets/crystal4.png';
+
+
+
+
 
 function Home(){
     return(
         <main>
+            <section className="bg-section">
+            <img className="bg"  src={icebg} alt="ice"/>
+                <img className="bg2" src={art5} />
+                <img className="bg3" src={icebg2} />
+
+            
+
+            </section>
             <section className="hero">
                 <nav>
                     {/* <img src={logo} alt="logo"/> */}
@@ -23,41 +43,56 @@ function Home(){
                 <h1>Frost Hacks</h1>
                 <h3>Dec 2-3 2023</h3>
                 <h3>Hyderabad</h3>
-                <button className="register">Register</button>
+                <button className="register-btn">Register</button>
                 </div>
-                <img className="bg"  src={icebg} alt="ice"/>
-                <img className="bg2" src={icebg2} />
+                <img src={rocks} className="rocks"/>
 
-                
+            </section>
+            <section className="coldboy">
+                <div className="boy-animation"></div>
             </section>
             <section className="about-section">
             <div className="about">
+                {/* <img src={trees} className="trees"/> */}
+                <img src={lamp} className="lamp"/>
+                <div className="info">
                 <h1>ABOUT</h1>
-                <h3>FROST HACK, a thrilling 30-hour hackathon held at the prestigious Institute of Aeronautical Engineering (IARE),
+                <p>FROST HACK, a thrilling 30-hour hackathon held at the prestigious Institute of Aeronautical Engineering (IARE),
                      extends a warm invitation to all students who share a burning passion for coding, regardless of your current skill level, 
                      there are no boundaries to your creativity. Our goal is to inspire participants to push their limits,
                       unleash their boundless creativity, and take significant strides towards honing their coding prowess.
                     Join us to push the limits of your coding abilities and embark on a journey of continuous improvement.
-                </h3>
+                </p>
+                </div>
             </div>
             </section>
             <section className="tracks-section">
+                <h1>Tracks</h1>
                 <div className="tracks">
                     <div className="track1 themes">
-                        {/* <img src={crystal1} alt="crystal"/> */}
+                        <img src={crystal1} className="crystal"/>
                         <h3>Health and Wellness</h3>
+                        <p>Unlock  the potential for transformation in health and wellness within the society,
+                         as we  aim to innovate and enhance, fostering betterment and expansion in one concerted effort.</p>
                     </div>
                     <div className="track2 themes">
-                        {/* <img src={crystal2} alt="crystal"/> */}
+                        <img src={crystal2} className="crystal"/>
                         <h3>Social Good</h3>
+                        <p>Dedicated to the greater good, creating a positive impact on society.Tirelessly work towards addressing pressing social issues, supporting communities,
+                         and driving positive change.</p>
                     </div>
                     <div className="track3 themes">
-                        {/* <img src={crystal3} alt="crystal"/> */}
+                        <img src={crystal3} className="crystal"/>
                         <h3>Web 3.0</h3>
+                        <p>Web 3.0 marks the next evolution in the digital realm. In this new era, the internet transforms into a decentralized,
+                         interconnected network, where data, services, and experiences are user-centric and secure.</p>
                     </div>
                     <div className="track4 themes">
-                        {/* <img src={crystal4} alt="crystal"/> */}
+                        <img src={crystal4} className="crystal"/>
                         <h3>Open Innovation</h3>
+                        <p>Open Innovation is the cornerstone of our approach to problem-solving and progress.We believe that great ideas can come from anywhere, 
+                        and by fostering open innovation, we tap into the collective intelligence of diverse minds.
+</p>
                     </div>
                 </div>
             </section>

@@ -5,52 +5,162 @@ body{
     box-sizing: border-box;
     /* overflow: hidden; */
 }
+section{
+    overflow-x:hidden;
+}
+.hero{
+    height: 100vh;
+}
 
 nav ul{
     list-style: none;
     text-decoration: none;
     display: flex;
     justify-content: space-between;
-    margin:2vh 1vw;
+    margin:3vh 0;
     position: absolute;
+    font-weight: 500;
 }
 
 nav ul li a{
     text-decoration: none;
     color: white;
-    margin-right:1vw ;
+    margin-right:2vw ;
     font-size: 1.1em;
+}
+.bg-section{
+    top: 0;
+    margin: 0;
+    z-index: -2;
+    position: absolute;
+    overflow-x: hidden;
 }
 .bg{
     height: 130vh;
     width: 100vw;
     background-size: cover;
+    z-index: -2;
 }
-.tree{
-    height: 90vh;
-    transform: translate(60vh,-58vw);
-    position: absolute;
-}
+
+/* .stone{
+    height: 70vh;
+    /* transform: translate(0,-120vh); */
 .bg2{
-    height: 120vh;
+    z-index: -3;
+    transform: translateY(-4vh);
     width: 100vw;
     background-size: cover;
 }
-.event-details{
+.bg3{
+    z-index: -3;
+    width: 100vw;
+    transform: translateY(-5vh);
+
+}
+.rocks{
+    height: 80vh;
     position: absolute;
+    transform: translate(-5vw,-10vh);
+    animation: turn 3s ease-in-out 2s infinite;
+}
+/* @keyframes turn {
+    0%{
+        transform: skew(15deg,2deg);
+    }
+    100%{
+        transform: skew(-25deg,10deg);
+    }
+    
+} */
+.boy-animation{
+    height: 40vh;
+}
+
+.event-details{
     color: white;
+    text-align: left;
+    padding-left: 3vw;
+
 }
 .event-details h1{
+    color: rgb(35, 34, 53);
     margin: 0;
-    margin-top: 10vh;
+    padding-top: 10vh;
     font-size: 6rem;
-    padding-left: 3vw;
     text-align: left;
 }
-.about-section{
-    margin: 0 2vw;
-transform: translateY(-120vh);
+.event-details h3{
+    margin: 0;
+    text-align: left;
+    font-size: 2rem;
 }
+.register-btn{
+    padding: 2vh 3vw;
+    margin-top: 5vh;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(42, 42, 58);
+    font-size: 1.1rem;
+    
+
+}
+
 .about{
+display: flex;
+padding: 20vh 3vw;
+padding-right: 6vw;
+align-items: center;
+}
+.lamp{
+    animation: float 4s ease-in-out infinite;
+    height: 90vh;
+    margin-right: 10vw;
+ }
+ /* .trees{
+    width: 100vw;
+    margin-left: 0;
+    position: absolute;
+ } */
+.info{
+    height: auto;
     width: 50vw;
+    padding: 2vw;
+    color:rgb(35, 34, 53);
+    border-radius: 15px;
+    border: none;
+    border-bottom: 10px solid white;
+}
+.info h1{
+    color: white;
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+.info p{
+    font-size: 1.2rem;
+    text-align: justify;
+}
+@keyframes float{
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }
+}
+.tracks{
+    padding: 10vh 3vw;
+    display: grid;
+    grid-template-columns: 40% 40%;
+}
+.crystal{height: 60vh;}
+.themes{
+    width: 20vw;
+}
+.schedule{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 35% 35%;
+}
+.timeline{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
