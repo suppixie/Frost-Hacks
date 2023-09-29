@@ -1,0 +1,56 @@
+body{
+    scroll-behavior: smooth;
+    top: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+
+nav ul{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    margin:2vh 1vw;
+    position: absolute;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    margin-right:1vw ;
+    font-size: 1.1em;
+}
+.bg{
+    height: 130vh;
+    width: 100vw;
+    background-size: cover;
+}
+.tree{
+    height: 90vh;
+    transform: translate(60vh,-58vw);
+    position: absolute;
+}
+.bg2{
+    height: 120vh;
+    width: 100vw;
+    background-size: cover;
+}
+.event-details{
+    position: absolute;
+    color: white;
+}
+.event-details h1{
+    margin: 0;
+    margin-top: 10vh;
+    font-size: 6rem;
+    padding-left: 3vw;
+    text-align: left;
+}
+.about-section{
+    margin: 0 2vw;
+transform: translateY(-120vh);
+}
+.about{
+    width: 50vw;
+}
