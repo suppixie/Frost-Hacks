@@ -61,7 +61,16 @@ nav ul li a{
     z-index: -3;
     width: 100vw;
     transform: translateY(-80vh);
-
+}
+.bg5{
+    z-index: -4;
+    width: 100vw;
+    transform: translateY(-81vh);
+}
+.bg6{
+    z-index: -4;
+    width: 100vw;
+    transform: translateY(-85vh);
 }
 .rocks{
     height: 80vh;
@@ -92,13 +101,16 @@ nav ul li a{
     color: rgb(35, 34, 53);
     margin: 0;
     padding-top: 10vh;
-    font-size: 6rem;
+    font-size: 6.5rem;
     text-align: left;
 }
 .event-details h3{
     margin: 0;
     text-align: left;
     font-size: 2rem;
+}
+.hero-btns{
+    display: flex;
 }
 .register-btn{
     padding: 2vh 3vw;
@@ -108,9 +120,30 @@ nav ul li a{
     border-radius: 10px;
     background-color: rgb(42, 42, 58);
     font-size: 1.1rem;
-    
+    margin-right: 2vw;
+    cursor: pointer;
+}
+.register-btn:hover{
+    background-color: rgb(42, 42, 81);
+    transform: scale(1.05);
 
 }
+.discord-btn{
+    padding: 2vh 3vw;
+    margin-top: 5vh;
+    color: rgb(42, 42, 58);
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.discord-btn:hover{
+    background-color: azure;
+    transform: scale(1.05);
+
+}
+
 
 .about{
 display: flex;
@@ -221,24 +254,10 @@ align-items: center;
 .teleporter{
     height: 35vh;
 }
-/* .themes:hover + .themes p{
-display: flex;
-}
-.themes p{
-    display: none;
-} */
-.schedule{
-    text-align: center;
-    display: grid;
-    grid-template-columns: 35% 35%;
-}
-.timeline{
-    text-align: center;
-    display: grid;
-    grid-template-columns: 50% 50%;
-}
+
 .countdown-section{
     margin: 0 3vw;
+    height: 55vh;
 }
 
 .countdown{
@@ -252,5 +271,111 @@ display: flex;
     padding-top: 10vh;
 }
 .countdown-date{
-    top:0; left:0; width:70vw; height:30vh;  border:0; 
+    top:0; left:0; width:70vw; height:25vh;  border:0; 
+}
+.schedule-section{
+    align-items: center;
+    display: flex;
+    margin: 0 3vw;
+}
+.schedule-section h1{
+    color: rgb(35, 34, 53);
+    font-size: 2rem;
+}
+.schedule{
+    text-align: center;
+    display: grid;
+    /* color: white; */
+    width: 100%;
+    grid-template-columns: 30vw 30vw;
+
+}
+.timeline{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border:5px ridge white;
+    background-image: url(https://i.pinimg.com/originals/be/5e/71/be5e71a29b38a1c15cc266a9a360e5ae.png);
+    border-radius: 15px;
+    padding: 2vw;
+    height: 50vh;
+}
+.timeline p{
+    margin: 1vh 0;
+}
+
+.light{
+    height: 80vh;
+    margin-right: 10vw;
+}
+.scroll1{
+    width: 35vw;
+    /* height: 100vh; */
+    position: absolute;
+    z-index: -2;
+    transform: translate(-18vw,-5vh);
+
+}
+.scroll2{
+    width: 35vw;
+    position: absolute;
+    z-index: -2;
+    transform: translate(-18vw,-5vh);
+    margin:0;
+}
+.tree{
+    width: 100vw;
+    /* padding: 2vw; */
+    transform: translate(-49.5vw,0vh);
+    position: absolute;
+    z-index: -2;
+}
+
+.faq-section{
+    text-align: center;
+}
+.question-container{
+    margin: 2vh 25vw;
+    width: 50vw;
+    padding-top: 20vh;
+    text-align: left;
+}
+.question-container h1{
+    color: rgb(35, 34, 53);
+    font-size: 3rem;
+    font-weight: bolder;
+    text-align: center;
+}
+.questions label{
+    cursor: pointer;
+}
+.question-label{
+    display: flex;
+    justify-content: space-between;
+    margin: 1vh 0;
+    background-image:url(https://i.pinimg.com/originals/be/5e/71/be5e71a29b38a1c15cc266a9a360e5ae.png) ;
+    border-radius: 20px;
+    padding: 2vh;
+    border-bottom: 4px outset rgb(86, 125, 245);
+    align-items: center;
+}
+.answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+  }
+  
+  .question-checkbox:checked ~ .answer {
+    max-height: fit-content; 
+    transition: max-height 0.3s ease-in-out;
+  }
+.questions h4{
+   margin: 0;
+   font-weight: 500;
+   color: rgb(35, 34, 53);
+}
+.questions p{
+    color: white;
+    margin: 1vh 1vw;
+    margin-bottom: 3vh;
 }

@@ -7,6 +7,8 @@ import icebg from '../assets/art3.png'
 import icebg2 from '../assets/art7.png';
 import art5 from '../assets/art6.png'
 import art10 from '../assets/art10.png';
+import art11 from '../assets/art12.png';
+import art13 from '../assets/art13.png';
 import lamp from '../assets/checkpoint.png';
 import teleporter from '../assets/teleporter_active.gif';
 import rocks from '../assets/rocks5.png'
@@ -14,6 +16,9 @@ import crystal1 from '../assets/sculpture1.png';
 import crystal2 from '../assets/sculpture2.png';
 import crystal3 from '../assets/crystal3.png';
 import crystal4 from '../assets/crystal4.png';
+import tree from '../assets/trees1.png';
+import scroll from '../assets/scroll1.png';
+import light from '../assets/light.png';
 
 
 
@@ -27,6 +32,10 @@ function Home(){
                 <img className="bg2" src={art5} />
                 <img className="bg3" src={icebg2} />
                 <img className="bg4" src={art10} />
+                <img className="bg5" src={art11} />
+                <img className="bg6" src={art13} />
+
+
 
 
             
@@ -45,9 +54,11 @@ function Home(){
                 </nav>
                 <div className="event-details">
                 <h1>Frost Hacks</h1>
-                <h3>Dec 2-3 2023</h3>
-                <h3>Hyderabad</h3>
+                <h3>Dec 2-3 2023 | Hyderabad</h3>
+                <div className="hero-btns">
                 <button className="register-btn">Register</button>
+                <button className="discord-btn">Discord</button>
+                </div>
                 </div>
                 <img src={rocks} className="rocks"/>
 
@@ -71,7 +82,7 @@ function Home(){
             </div>
             </section>
             <section className="tracks-section">
-                <h2>Tracks</h2>
+                <h2>TRACKS</h2>
                 <div className="tracks">
                     <div className="track1 themes">
                         <img src={crystal1} className="crystal"/>
@@ -105,39 +116,109 @@ function Home(){
                 </div>
             </section>
             <section className="schedule-section">
+                <img src={light} className="light"/>
+                <div className="schedule-container">
+                <h1>SCHEDULE</h1>
                 <div className="schedule">
                     <div className="day1">
+                    {/* <img src={scroll} className="scroll1"/> */}
                         <h1>SATURDAY</h1>
                         <div className="timeline">
                         <p>Check-in</p> <p>9:30 AM</p>
-                        <p>Event Begins</p> <p>11:00 AM</p>
+                        <p>Opening Ceremony</p> <p>10:30 AM</p>
+                        <p>Hackathon begins</p> <p>11:00 AM</p>
+                        <p>Lunch</p> <p>3:00 PM</p>
+                        <p>Workshop 1</p> <p>5:00 PM</p>
+                        <p>Mini event</p> <p>7:00 PM</p>
+                        <p>Dinner</p> <p>9:00 PM</p>
+                        <p>Midnight Snacks & Surprise</p> <p>12:00 AM</p>
                         </div>
                     </div>
                     <div className="day2">
+                    {/* <img src={scroll} className="scroll2"/> */}
                         <h1>SUNDAY</h1>
                         <div className="timeline">
                         <p>Breakfast</p> <p>8:00 AM</p>
-                        <p>Event Begins</p> <p>11:00 AM</p>
+                        <p>Workshop 2 Begins</p> <p>11:00 AM</p>
+                        <p>Mini event</p> <p>2:00 PM</p>
+                        <p>Lunch</p> <p>3:00 PM</p>
+                        <p>Submissions Due</p> <p>5:30 PM</p>
+                        <p>Hackathon ends</p> <p>6:00 PM</p>
+                        <p>Mini event</p> <p>6:30 PM</p>
+                        <p>Closing ceremony</p> <p>7:00 PM</p>
+
                         </div>
+                    </div>
                     </div>
                 </div>
             </section>
             <section className="faq-section">
+            <img src={tree} className="tree"/>
+                <div className="question-container">
+                    <h1>FAQ</h1>
                 <div className="questions">
-                    <h4>what is Frost Hacks?</h4>
-                    <p>FROST HACKS is a thrilling 24-hour hackathon hosted at the prestigious Institute of Aeronautical Engineering (IARE) that invites students with a passion for coding, regardless of their skill level, to unleash their creativity and enhance their coding abilities.</p>
+                <input hidden type="checkbox" id="question1" class="question-checkbox" />
+                <label for="question1" className="question-label">
+                    <h4>What is Frost Hacks?</h4>
+                    <span>&#9660;</span>
+                </label>
+                    <p className="answer">FROST HACKS is a thrilling 24-hour hackathon hosted at the prestigious Institute of Aeronautical Engineering (IARE) that invites students with a passion for coding, regardless of their skill level, to unleash their creativity and enhance their coding abilities.</p>
                 </div>
+
                 <div className="questions">
+                <input hidden  type="checkbox" id="question2" class="question-checkbox" />
+                <label for="question2" className="question-label">
                     <h4>When and where will FROST HACKS 2023 take place?</h4>
-                    <p>FROST HACKS 2023 will be held on December 2nd to 3rd 2023 at the Institute of Aeronautical Engineering (IARE)</p>
+                    <span>&#9660;</span>
+                    </label>
+                    <p className="answer">FROST HACKS 2023 will be held on December 2nd to 3rd 2023 at the Institute of Aeronautical Engineering (IARE)</p>
                 </div>
+
                 <div className="questions">
+                <input hidden type="checkbox" id="question3" class="question-checkbox" />
+                <label for="question3" className="question-label">
                     <h4>How can I stay updated about FROST HACKS and receive event-related information?</h4>
-                    <p>Stay connected with us by joining our discord server. We'll keep you informed about the latest news and exciting developments.</p>
+                    <span>&#9660;</span>
+                    </label>
+                    <p className="answer">Stay connected with us by joining our discord server. We'll keep you informed about the latest news and exciting developments.</p>
                 </div>
+
                 <div className="questions">
+                <input hidden type="checkbox" id="question4" class="question-checkbox" />
+                <label for="question4" className="question-label">
                     <h4>Will food be provided?</h4>
-                    <p>We've got lots of food and snacks for everyone, stay hacky and hydrated</p>
+                    <span>&#9660;</span>
+                </label>
+                    <p className="answer">We've got lots of food and snacks for everyone, stay hacky and hydrated</p>
+                </div>
+
+                <div className="questions">
+                <input hidden type="checkbox" id="question4" class="question-checkbox" />
+                <label for="question4" className="question-label">
+                    <h4>Who can Participate?</h4>
+                    <span>&#9660;</span>
+                </label>
+                    <p className="answer">We welcome undergraduates and graduate students of all majors, backgrounds, and skill level to come create.
+                    Unfortunately, if you are under 18, you will not be able to attend.</p>
+                </div>
+
+                <div className="questions">
+                <input hidden type="checkbox" id="question4" class="question-checkbox" />
+                <label for="question4" className="question-label">
+                    <h4>Is there any Registration fee?</h4>
+                    <span>&#9660;</span>
+                </label>
+                    <p className="answer">FROST HACKS is absolutely free for everyone to attend.</p>
+                </div>
+
+                <div className="questions">
+                <input hidden type="checkbox" id="question4" class="question-checkbox" />
+                <label for="question4" className="question-label">
+                    <h4>I have more questions</h4>
+                    <span>&#9660;</span>
+                </label>
+                    <p className="answer">You can mail us at info@frosthacks.org or reach out on instagram @frosthacks.iare</p>
+                </div>
                 </div>
             </section>
             <section className="contact-section">
