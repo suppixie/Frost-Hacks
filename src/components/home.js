@@ -2,11 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../components/home.css";
 
+
 import icebg from '../assets/art3.png'
 import icebg2 from '../assets/art7.png';
 import art5 from '../assets/art6.png'
+import art10 from '../assets/art10.png';
 import lamp from '../assets/checkpoint.png';
-import trees from '../assets/trees1.png';
+import teleporter from '../assets/teleporter_active.gif';
 import rocks from '../assets/rocks5.png'
 import crystal1 from '../assets/sculpture1.png';
 import crystal2 from '../assets/sculpture2.png';
@@ -24,6 +26,8 @@ function Home(){
             <img className="bg"  src={icebg} alt="ice"/>
                 <img className="bg2" src={art5} />
                 <img className="bg3" src={icebg2} />
+                <img className="bg4" src={art10} />
+
 
             
 
@@ -67,33 +71,37 @@ function Home(){
             </div>
             </section>
             <section className="tracks-section">
-                <h1>Tracks</h1>
+                <h2>Tracks</h2>
                 <div className="tracks">
                     <div className="track1 themes">
                         <img src={crystal1} className="crystal"/>
-                        <h3>Health and Wellness</h3>
+                        <h1>Health & Wellness</h1>
                         <p>Unlock  the potential for transformation in health and wellness within the society,
-                         as we  aim to innovate and enhance, fostering betterment and expansion in one concerted effort.</p>
+                         as we  aim to innovate and enhance in one concerted effort.</p>
                     </div>
                     <div className="track2 themes">
                         <img src={crystal2} className="crystal"/>
-                        <h3>Social Good</h3>
-                        <p>Dedicated to the greater good, creating a positive impact on society.Tirelessly work towards addressing pressing social issues, supporting communities,
-                         and driving positive change.</p>
+                        <h1>Social<br/> Good</h1>
+                        <p>Dedicated to the greater good, creating a positive impact on society while addressing pressing social issues.</p>
                     </div>
                     <div className="track3 themes">
                         <img src={crystal3} className="crystal"/>
-                        <h3>Web 3.0</h3>
-                        <p>Web 3.0 marks the next evolution in the digital realm. In this new era, the internet transforms into a decentralized,
-                         interconnected network, where data, services, and experiences are user-centric and secure.</p>
+                        <h1>Web<br/> 3.0</h1>
+                        <p>Web 3.0 is the new digital realm. The decentralized, inter-connected, user-centric, and secure evolution of the internet.</p>
                     </div>
                     <div className="track4 themes">
                         <img src={crystal4} className="crystal"/>
-                        <h3>Open Innovation</h3>
-                        <p>Open Innovation is the cornerstone of our approach to problem-solving and progress.We believe that great ideas can come from anywhere, 
-                        and by fostering open innovation, we tap into the collective intelligence of diverse minds.
+                        <h1>Open Innovation</h1>
+                        <p>We embrace the idea that innovation can originate from anywhere and actively tap into diverse minds for great ideas.
 </p>
                     </div>
+                </div>
+                <img src={teleporter} className="teleporter"/>
+            </section>
+            <section className="countdown-section">
+            <div className="countdown">
+                <h1>Hackathon begins in</h1>
+                <iframe className="countdown-date" src="https://www.tickcounter.com/widget/countdown/4490171" ></iframe>
                 </div>
             </section>
             <section className="schedule-section">
