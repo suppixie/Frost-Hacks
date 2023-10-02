@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'breathe-fire';
+    src: local('BreatheFireIii-PKLOB'),
+         url('./breathe-fire-iii-font/BreatheFireIii-PKLOB.ttf') format('truetype'),
+}
+@font-face {
+    font-family: 'death-star';
+    src: local('DeathStar-VmWB'),
+         url('./death-star-font/DeathStar-VmWB.ttf') format('truetype'),
+}
+
+@font-face {
+    font-family: 'grim-reaper';
+    src: local('GrimReaper-jEBRO'),
+         url('./grim-reaper-font/GrimReaper-jEBRO.ttf') format('truetype'),
+}

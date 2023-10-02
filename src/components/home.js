@@ -2,26 +2,33 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../components/home.css";
 
-
-import icebg from '../assets/art3.png'
-import icebg2 from '../assets/art7.png';
-import art5 from '../assets/art6.png'
+import "../fonts/fonts.css";
+import "../fonts/breathe-fire-iii-font/BreatheFireIii-PKLOB.ttf";
+import "../fonts/death-star-font/DeathStar-VmWB.ttf";
+import "../fonts/grim-reaper-font/GrimReaper-jEBRO.ttf";
+import logo from "../assets/logo2 (1).png";
+import icebg from '../assets/art3.png';
+import art7 from '../assets/art7(1).png';
+import art5 from '../assets/art6(1).png'
 import art10 from '../assets/art10.png';
 import art11 from '../assets/art12.png';
 import art13 from '../assets/art13.png';
+import art14 from '../assets/art14.png';
+import light2 from '../assets/light1.png'
 import lamp from '../assets/checkpoint.png';
 import teleporter from '../assets/teleporter_active.gif';
 import rocks from '../assets/rocks5.png'
-import crystal1 from '../assets/sculpture1.png';
-import crystal2 from '../assets/sculpture2.png';
+import crystal1 from '../assets/crystal2.png';
+import crystal2 from '../assets/crystal11.png';
 import crystal3 from '../assets/crystal3.png';
 import crystal4 from '../assets/crystal4.png';
 import tree from '../assets/trees1.png';
 import hr from '../assets/hr.png';
-import light from '../assets/light.png';
+import prop1 from '../assets/snow props1.png';
+import prop2 from '../assets/snow props2.png';
 import frame8 from '../assets/frame1.png'
 import snow from '../assets/snow 11.png'
-import me from '../assets/team/me.jpeg';
+import me from '../assets/team/me1.jpeg';
 import mythri2 from '../assets/team/mythri2.jpg';
 import harshitha from '../assets/team/harshitha.jpg';
 import nayan from '../assets/team/nayan.jpeg';
@@ -31,7 +38,8 @@ import crystalonrock from '../assets/crystal-rock crystal.png';
 import rockholder from '../assets/crystal-rock.png'
 import snow3 from '../assets/snow 3.png';
 import card from '../assets/scroll1.png';
-import card2 from '../assets/scroll1.png';
+import snow2 from '../assets/snow2.png';
+import wand from '../assets/wand.png'
 
 
 
@@ -41,37 +49,45 @@ function Home(){
             <section className="bg-section">
             <img className="bg"  src={icebg} alt="ice"/>
                 <img className="bg2" src={art5} />
-                <img className="bg3" src={icebg2} />
+                <img className="bg3" src={art7} />
                 <img className="bg4" src={art10} />
                 <img className="bg5" src={art11} />
                 <img className="bg6" src={art13} />
+                <img className="bg7" src={art14} />
+
             </section>
             <section className="hero">
-                <nav>
-                    {/* <img src={logo} alt="logo"/> */}
+                <div className="navbar">
+                    <img src={logo} className="logo"/>
                     <ul>
-                        <li><Link to="/">Home</Link></li>
-                        <li><Link to="/">About</Link></li>
-                        <li><Link to="/">Schedule</Link></li>
-                        <li><Link to="/">FAQ</Link></li>
-                        <li><Link to="/">Contact</Link></li>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#tracks">Tracks</a></li>
+                        <li><a href="#schedule">Schedule</a></li>
+                        <li><a href="/">Prizes</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li></li>
                     </ul>
-                </nav>
+                </div>
                 <div className="event-details">
-                <h1>Frost Hacks</h1>
+                <h1>FROST HACKS</h1>
+                <h4>Get ready to embark on a Winter Innovation Odyssey!</h4>
                 <h3>Dec 2-3 2023 | IARE, Hyderabad</h3>
                 <div className="hero-btns">
-                <button className="register-btn"><a href="https://lu.ma/event/evt-DbAIZ0uCNtCTWj3" target="_blank">Register</a></button>
+                <a href="https://lu.ma/event/evt-DbAIZ0uCNtCTWj3" target="_blank"><button className="register-btn">Register</button></a>
                 <button className="discord-btn">Discord</button>
                 </div>
-                </div>
+                <div className="rock-mountain">
                 <img src={rocks} className="rocks"/>
+                </div>
+                </div>
 
             </section>
             <section className="coldboy">
                 <div className="boy-animation"></div>
             </section>
-            <section className="about-section">
+            <section className="about-section" id="about">
             <div className="about">
                 {/* <img src={trees} className="trees"/> */}
                 <div className="crystal-rock">
@@ -79,19 +95,19 @@ function Home(){
                     <img src={rockholder} className="rock-holder"/>
                 </div>
                 <div className="info">
-                <h1>ABOUT</h1>
+                <h1>About</h1>
+                {/* <img src={snow3} className="snow3"/> */}
                 <p>FROST HACK, a thrilling 30-hour hackathon held at the prestigious Institute of Aeronautical Engineering (IARE),
                      extends a warm invitation to all students who share a burning passion for coding, regardless of your current skill level, 
                      there are no boundaries to your creativity. Our goal is to inspire participants to push their limits,
                       unleash their boundless creativity, and take significant strides towards honing their coding prowess.
                     Join us to push the limits of your coding abilities and embark on a journey of continuous improvement.
                 </p>
-                {/* <img src={snow3} className="snow3"/> */}
                 </div>
             </div>
             </section>
-            <section className="tracks-section">
-                <h2>TRACKS</h2>
+            <section className="tracks-section" id="tracks">
+                <h2>Tracks</h2>
                 <div className="tracks">
                     <div className="track1 themes">
                         <img src={crystal1} className="crystal"/>
@@ -120,18 +136,18 @@ function Home(){
             </section>
             <section className="countdown-section">
             <div className="countdown">
-                <h1>Hackathon begins in</h1>
+                <h1>Hackathon<br/>begins in</h1>
+                {/* <img src={snow2} className="snow2"/> */}
                 <iframe className="countdown-date" src="https://www.tickcounter.com/widget/countdown/4490171" ></iframe>
                 </div>
             </section>
-            <section className="schedule-section">
-                {/* <img src={light} className="light"/> */}
+            <section className="schedule-section" id="schedule">
+                {/* <img src={prop2} className="prop"/> */}
                 <div className="schedule-container">
-                <h2>SCHEDULE</h2>
+                <h2>Schedule</h2>
                 <div className="schedule">
                     <div className="day1">
-                    <img src={frame8} className="frame8"/>
-                    {/* <img src={card} className="card"/> */}
+                    {/* <img src={frame8} className="frame8"/> */}
                         <h1>SATURDAY</h1>
                         <div className="timeline">
                         <p>Check-in</p> <p>9:30 AM</p>
@@ -143,11 +159,9 @@ function Home(){
                         <p>Dinner</p> <p>9:00 PM</p>
                         <p>Midnight Snacks <br/>& Surprise</p> <p>12:00 AM</p>
                         </div>
-                        {/* <img src={snow} className="snow1"/> */}
                     </div>
                     <div className="day2">
-                    <img src={frame8} className="frame9"/>
-                    {/* <img src={card2} className="card2"/> */}
+                    {/* <img src={frame8} className="frame9"/> */}
                         <h1>SUNDAY</h1>
                         <div className="timeline">
                         <p>Breakfast</p> <p>8:00 AM</p>
@@ -157,23 +171,25 @@ function Home(){
                         <p>Submissions Due</p> <p>5:30 PM</p>
                         <p>Hackathon ends</p> <p>6:00 PM</p>
                         <p>Mini event</p> <p>6:30 PM</p>
-                        <p>Closing ceremony</p> <p>7:00 PM</p>
+                        <p>Closing<br/>Ceremony</p> <p>7:00 PM</p>
                         </div>
-                        {/* <img src={snow} className="snow2"/> */}
                     </div>
                     </div>
                 </div>
+                {/* <img src={prop1} className="prop"/> */}
             </section>
             <section className="sponsor-section">
                 <div className="sponsors">
                     <h1>Sponsors</h1>
-                    <h3>To be announced soon...</h3>
+                    <h2>To be announced soon...</h2>
                 </div>
             </section>
-            <section className="faq-section">
+            <section className="faq-section" >
+                <div className="tree-img">
             <img src={tree} className="tree"/>
-                <div className="question-container">
-                    <h1>FAQ</h1>
+            </div>
+                <div className="question-container" >
+                    <h1 id="faq">Faq</h1>
                 <div className="questions">
                 <input hidden type="checkbox" id="question1" class="question-checkbox" />
                 <label for="question1" className="question-label">
@@ -254,16 +270,55 @@ function Home(){
                 </div>
             </section>
             <section className="team-section">
+                <div>
                 <h1>Meet Our Team</h1>
                 <div className="team-container">
-                <div><img src={harshitha} className="team-pic"/> <p>Harshitha ⚡</p></div>
-                <div><img src={mythri2} className="team-pic"/><p>Mythri 💃</p></div>
-                <div><img src={me} className="team-pic"/><p>Mamtha 🍉</p></div>
-                <div><img src={sneha} className="team-pic"/><p>Sneha 🌞</p></div>
-                <div><img src={nayan} className="team-pic"/><p>Nayan ⚔️</p></div>
-                <div><img src={shruti} className="team-pic"/><p>Shruti 👑</p></div>
+                <div>
+                <div className="member">
+                    <img src={harshitha} className="team-pic"/> <p>Harshitha ⚡</p></div>
+                    {/* <img src={spikes} className="spikes"/> */}
+                    </div>
+                    <div>
+                <div className="member">
+                    <img src={mythri2} className="team-pic"/><p>Mythri 💃</p></div>
+                    </div>
+                    <div>
+                <div className="member">
+                    <img src={me} className="team-pic"/><p>Mamtha 🍉</p></div>
+                    </div>
+                    <div>
+                <div className="member">
+                    <img src={sneha} className="team-pic"/><p>Sneha 🌞</p></div>
+                    </div>
+                    <div>
+                <div className="member">
+                    <img src={nayan} className="team-pic"/><p>Nayan ⚔️</p></div>
+                    </div>
+                    <div>
+                <div className="member">
+                    <img src={shruti} className="team-pic"/><p>Shruti 👑</p></div>
+                    </div>
+                </div>
+                <img src={wand} className="wand"/>
                 </div>
             </section>
+            <section className="contact-section" id="contact">
+                <div className="contact">
+                    <h1>Contact Us</h1>
+                    <div className="socials">
+                    <p>Mail : info@frosthacks.org for queries</p>
+                    <p>Instagram : @frosthacks.iare</p>
+                    <p>Share on Devpost : <a href="">Devpost</a></p>
+                    <p>Read MLH Code of Conduct < a href="">here</a></p>
+                    <a href="https://lu.ma/event/evt-DbAIZ0uCNtCTWj3" target="_blank"><button className="register-btn">Register</button></a>
+                <a href="/"><button className="discord-btn">Discord</button></a>
+                    </div>
+                </div>
+                <img src={light2} className="light2"/>
+                </section>
+                <div className="happyhacking">
+                    <h1>HAPPY HACKING!</h1>
+                </div>
         </main>
     )
 
