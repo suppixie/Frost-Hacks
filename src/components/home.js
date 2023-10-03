@@ -64,7 +64,7 @@ function Home(){
                 <div className="navbar">
                     <img src={logo} className="logo"/>
                     <ul>
-                        <li><a href="/">Home</a></li>
+                        <li><a href="/" >Home</a></li>
                         <li><a href="#about">About</a></li>
                         <li><a href="#tracks">Tracks</a></li>
                         <li><a href="#schedule">Schedule</a></li>
@@ -79,8 +79,8 @@ function Home(){
                 <h4>Get ready to embark on a Winter Innovation Odyssey!</h4>
                 <h3>Dec 2-3 2023 | IARE, Hyderabad</h3>
                 <div className="hero-btns">
-                <a href="https://lu.ma/event/evt-DbAIZ0uCNtCTWj3" target="_blank"><button className="register-btn">Register</button></a>
-                <a href="https://discord.gg/QSvZxgwU" target="_blank"><button className="discord-btn">Discord</button></a>
+                <a href="https://lu.ma/event/evt-DbAIZ0uCNtCTWj3" target="_blank" rel="noreferrer"><button className="register-btn">Register</button></a>
+                <a href="https://discord.gg/QSvZxgwU" target="_blank" rel="noreferrer"><button className="discord-btn">Discord</button></a>
                 </div>
                 <div className="rock-mountain">
                 <img src={rocks} className="rocks"/>
@@ -320,42 +320,42 @@ function Home(){
                         <div className="social-icons">
                             <img src={instagram} className="icons"/>
                         </div>
-                    <a href="https://instagram.com/frosthacks.iare?igshid=OGQ5ZDc2ODk2ZA==" target="_blank">@frosthacks.iare</a>
+                    <a href="https://instagram.com/frosthacks.iare?igshid=OGQ5ZDc2ODk2ZA==" target="_blank" rel="noreferrer">@frosthacks.iare</a>
                     </div>
 
                     <div>
                         <div className="social-icons">
                                 <img src={devpost} className="icons devpost"/>
                         </div>
-                    <a href="/" target="_blank"> Share on Devpost</a>
+                    <a href="/" target="_blank" rel="noreferrer"> Share on Devpost</a>
                     </div>
 
                     <div>
                         <div className="social-icons">
                             <img src={twitter} className="icons twitter"/>
                         </div>
-                    < a href="/" target="_blank">Follow Us (X)</a>
+                    < a href="/" target="_blank" rel="noreferrer">Follow Us (X)</a>
                     </div>
 
                     <div>
                         <div className="social-icons">
                             <img src={sponsor} className="icons sponsor"/>
                         </div>
-                    < a href="/" target="_blank">Sponsor Us</a>
+                    < a href="/" target="_blank" rel="noreferrer">Sponsor Us</a>
                     </div>
 
                     <div>
                         <div className="social-icons">
                             <img src={coc} className="icons coc"/>
                         </div>
-                    < a href="/" target="_blank">MLH Code of Conduct</a>
+                    < a href="/" target="_blank" rel="noreferrer">MLH Code of Conduct</a>
                     </div>
                     </div>
                 </div>
                 <div>
                 <img src={light2} className="light2"/>
-                <a href="https://lu.ma/event/evt-DbAIZ0uCNtCTWj3" target="_blank"><button className="register-btn2 ">Register</button></a>
-                <a href="https://discord.gg/QSvZxgwU" target="_blank"><button className="discord-btn2">Discord</button></a>
+                <a href="https://lu.ma/event/evt-DbAIZ0uCNtCTWj3" target="_blank" rel="noreferrer"><button className="register-btn2 ">Register</button></a>
+                <a href="https://discord.gg/QSvZxgwU" target="_blank" rel="noreferrer"><button className="discord-btn2">Discord</button></a>
                 </div>
                 </section>
                 <div className="happyhacking">
