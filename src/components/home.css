@@ -53,7 +53,7 @@ main{
     background-color: rgb(20, 10, 66);
     overflow: hidden;
     height: 890vh;
-    width:99vw;
+    width:100vw;
 }
 .bg{
     height: 120vh;
@@ -74,18 +74,18 @@ main{
 .bg3{
     z-index: -3;
     width: 100vw;
-    transform: translateY(-5vh);
+    transform: translateY(-12vh);
 
 }
 .bg4{
     z-index: -3;
     width: 100vw;
-    transform: translateY(-10vh);
+    transform: translateY(-20vh);
 }
 .bg5{
     z-index: -4;
     width: 100vw;
-    transform: translateY(-20vh);
+    transform: translateY(-21vh);
 }
 .bg6{
     z-index: -4;
@@ -96,6 +96,13 @@ main{
     z-index: -4;
     width: 100vw;
     transform: translateY(-65vh);
+}
+.snowboy{
+    position: absolute;
+    z-index: 3;
+    height: 12vh;
+    /* filter: drop-shadow(0 -1vh 3vh rgba(0, 0, 139, 0.586)); */
+    transform: translate(-6vw,42vh);
 }
 .rock-mountain{
         width: 112vw;
@@ -369,7 +376,7 @@ align-items: center;
     padding: 1vh;
     font-family: "Marcellus SC";
     border:5px outset rgb(176, 171, 153);
-    background-color: rgba(232, 221, 255, 0.646);
+    background-color: rgba(160, 206, 255, 0.746);
     border-radius: 15px;
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
@@ -378,12 +385,15 @@ align-items: center;
 .schedule{
     text-align: center;
     display: grid;
-    width: 100%;
-    grid-template-columns: 30vw 30vw;
+    /* width: 100%; */
+    grid-template-columns:14.5vw 30vw 3vw 30vw 14.5vw;
     height: 100%;
-    column-gap: 8vw;
-    margin: 0 15vw;
+    margin: 0 4vw;
     align-items: center;
+}
+.iceblock2,.iceblock3{
+    height: 25vh;
+    transform: translateY(-20vh);
 }
 
 .schedule-container h2{
@@ -396,6 +406,8 @@ align-items: center;
     background-repeat: no-repeat;
     background-position: center;
 
+}
+.day1{
 }
 .timeline{
     padding: 2vh 0 ;
@@ -522,12 +534,14 @@ margin: 0 1vw;
 }
 .team-section{
     height: 70vh;
-    margin: 2vh 6vw;
+    margin: 2vh 5vw;
+    
 
 }
 .team-container{
 
     display: flex;
+   justify-content: center;
     color: white;
 }
 .team-section h1{
@@ -544,6 +558,7 @@ margin: 0 1vw;
 .team-section p{
     margin: 1vh 0;
     color: rgb(35, 34, 53);
+    font-size: 1.1rem;
 }
 .team-pic{
     border-radius: 15px;
@@ -578,44 +593,129 @@ margin: 0 1vw;
 
 }
 .contact-section{
-    margin: 0 3vw;
-    margin-top: 10vh;
-    /* margin-bottom: 10vh; */
-    height: 65vh;
+    margin: 10vh 3vw;
+    display: grid;
+    grid-template-columns: 72vw 10vw
 }
 .contact{
     margin: 0 5vw;
     color: white;
     
 }
-.contact a{
-    color: white;
-    
-}
+  
 .socials{
     display: grid;
     grid-template-columns: 30vw 30vw;
+    row-gap: 3vw;
     text-align: left;
 }
-.contact h1{
-    font-size: 2.5rem;
-    text-align: left;
-    font-family: "Marcellus SC";
-    
+.socials div{
+    display: flex;
+    align-items: center;
+}
+.socials div a{
+    /* background-image: url(https://i.pinimg.com/originals/be/5e/71/be5e71a29b38a1c15cc266a9a360e5ae.png); */
+    padding: 1.5vh;
+    border-radius: 12px;
+    color: white;
+    font-weight: bold;
+    border-bottom: 8px solid azure;
+    text-decoration: none;
+    margin: 0;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    width: 14vw;
+    background-image: linear-gradient(to top, rgba(131, 129, 255, 0.632), transparent);
 
 }
+.social-icons{
+    margin-right: 2vw;
+}
+.coc img,.devpost img{
+    height: 8vh;
+}
+.contact h1{
+    font-size: 2rem;
+    text-align: left;
+    font-family: "Marcellus SC";
+    background-image: url('../assets/frame6.png');
+    padding: 1.2vw;
+    padding-top: 1vw;
+    padding-left: 4vw;
+    color: rgb(20, 10, 66);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    margin-top: 2vw;
+}
+/* .footer-btn a{
+    text-decoration: none;
+} */
 .light2{
-    height: 50vh;
-    transform: translate(35vw,-35vh);
+    height: 35vh;
+    transform: translate(1.5vw,-4vh);
     filter: drop-shadow(0 4vh 4vh rgb(255, 230, 0));
     animation: swing 2s infinite;
 }
 
+.icons{
+    height: 10vh;
+}
+
+.register-btn2{
+    padding: 2vh 4vw;
+    margin-top: 2vh;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(50, 25, 162);
+    font-size: 1.2rem;
+    margin-right: 2vw;
+    cursor: pointer;
+    border: 1vh outset lightblue;
+}
+.register-btn2 a{
+    text-decoration: none;
+    color: white;
+}
+.register-btn2:hover{
+    background-color: rgb(42, 42, 81);
+    transform: scale(1.05);
+
+}
+.discord-btn2{
+    padding: 2vh 4vw;
+    margin-top: 5vh;
+    color: rgb(42, 42, 58);
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(218, 223, 255);
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: 1vh outset rgb(113, 145, 155);
+}
+.discord-btn2:hover{
+    background-color: azure;
+    transform: scale(1.05);
+
+}
+.happyhacking{
+    display: flex;
+    justify-content: center;
+}
+.mushroomrock{
+    height: 30vh;
+}
 .happyhacking h1{
     padding: 0;
     margin: 0;
-    font-size: 6rem;
+    font-size: 4rem;
     color: aliceblue;
     font-family: "Marcellus SC";
+}
+
+
+@media (max-width:767px) {
+    
 }
 

@@ -15,7 +15,6 @@ import art11 from '../assets/art12.png';
 import art13 from '../assets/art13.png';
 import art14 from '../assets/art14.png';
 import light2 from '../assets/light1.png'
-import lamp from '../assets/checkpoint.png';
 import teleporter from '../assets/teleporter_active.gif';
 import rocks from '../assets/rocks5.png'
 import crystal1 from '../assets/crystal2.png';
@@ -23,11 +22,6 @@ import crystal2 from '../assets/crystal11.png';
 import crystal3 from '../assets/crystal3.png';
 import crystal4 from '../assets/crystal4.png';
 import tree from '../assets/trees1.png';
-import hr from '../assets/hr.png';
-import prop1 from '../assets/snow props1.png';
-import prop2 from '../assets/snow props2.png';
-import frame8 from '../assets/frame1.png'
-import snow from '../assets/snow 11.png'
 import me from '../assets/team/me1.jpeg';
 import mythri2 from '../assets/team/mythri2.jpg';
 import harshitha from '../assets/team/harshitha.jpg';
@@ -36,10 +30,18 @@ import sneha from '../assets/team/sneha.jpg';
 import shruti from '../assets/team/shruti.jpg';
 import crystalonrock from '../assets/crystal-rock crystal.png';
 import rockholder from '../assets/crystal-rock.png'
-import snow3 from '../assets/snow 3.png';
-import card from '../assets/scroll1.png';
-import snow2 from '../assets/snow2.png';
 import wand from '../assets/wand.png'
+import snowboy from '../assets/Snowboy.gif';
+import mushroomrock from "../assets/ice props.png";
+import iceblock from "../assets/ice blocks1.png";
+import mail from "../assets/mail.png";
+import instagram from "../assets/instagram.png";
+import devpost from "../assets/devpost.png";
+import coc from "../assets/coc.png";
+import twitter from "../assets/twitter.png";
+import sponsor from "../assets/sponsor.png";
+import iceblock2 from "../assets/ice blocks2.png";
+import iceblock3 from "../assets/ice blocks3.png"
 
 
 
@@ -54,8 +56,10 @@ function Home(){
                 <img className="bg5" src={art11} />
                 <img className="bg6" src={art13} />
                 <img className="bg7" src={art14} />
-
             </section>
+            <div className="snowboy-animation">
+                <img src={snowboy} className="snowboy"/>
+            </div>
             <section className="hero">
                 <div className="navbar">
                     <img src={logo} className="logo"/>
@@ -76,16 +80,13 @@ function Home(){
                 <h3>Dec 2-3 2023 | IARE, Hyderabad</h3>
                 <div className="hero-btns">
                 <a href="https://lu.ma/event/evt-DbAIZ0uCNtCTWj3" target="_blank"><button className="register-btn">Register</button></a>
-                <button className="discord-btn">Discord</button>
+                <a href="https://discord.gg/QSvZxgwU" target="_blank"><button className="discord-btn">Discord</button></a>
                 </div>
                 <div className="rock-mountain">
                 <img src={rocks} className="rocks"/>
                 </div>
                 </div>
 
-            </section>
-            <section className="coldboy">
-                <div className="boy-animation"></div>
             </section>
             <section className="about-section" id="about">
             <div className="about">
@@ -142,12 +143,11 @@ function Home(){
                 </div>
             </section>
             <section className="schedule-section" id="schedule">
-                {/* <img src={prop2} className="prop"/> */}
                 <div className="schedule-container">
                 <h2>Schedule</h2>
                 <div className="schedule">
+                <img src={iceblock2} className="iceblock2"/>
                     <div className="day1">
-                    {/* <img src={frame8} className="frame8"/> */}
                         <h1>SATURDAY</h1>
                         <div className="timeline">
                         <p>Check-in</p> <p>9:30 AM</p>
@@ -160,6 +160,7 @@ function Home(){
                         <p>Midnight Snacks <br/>& Surprise</p> <p>12:00 AM</p>
                         </div>
                     </div>
+                    <p></p>
                     <div className="day2">
                     {/* <img src={frame8} className="frame9"/> */}
                         <h1>SUNDAY</h1>
@@ -174,9 +175,10 @@ function Home(){
                         <p>Closing<br/>Ceremony</p> <p>7:00 PM</p>
                         </div>
                     </div>
+                    <img src={iceblock3} className="iceblock3"/>
+
                     </div>
                 </div>
-                {/* <img src={prop1} className="prop"/> */}
             </section>
             <section className="sponsor-section">
                 <div className="sponsors">
@@ -306,17 +308,58 @@ function Home(){
                 <div className="contact">
                     <h1>Contact Us</h1>
                     <div className="socials">
-                    <p>Mail : info@frosthacks.org for queries</p>
-                    <p>Instagram : @frosthacks.iare</p>
-                    <p>Share on Devpost : <a href="">Devpost</a></p>
-                    <p>Read MLH Code of Conduct < a href="">here</a></p>
-                    <a href="https://lu.ma/event/evt-DbAIZ0uCNtCTWj3" target="_blank"><button className="register-btn">Register</button></a>
-                <a href="/"><button className="discord-btn">Discord</button></a>
+                    <div>
+                        <div className="social-icons">
+                            <img src={mail} className="icons"/>
+                            {/* <img src={iceblock} className="iceblock"/> */}
+                        </div>
+                    <a href="mailto:info@frosthacks.org">info@frosthacks.org</a>
+                    </div>
+
+                    <div>
+                        <div className="social-icons">
+                            <img src={instagram} className="icons"/>
+                        </div>
+                    <a href="https://instagram.com/frosthacks.iare?igshid=OGQ5ZDc2ODk2ZA==" target="_blank">@frosthacks.iare</a>
+                    </div>
+
+                    <div>
+                        <div className="social-icons">
+                                <img src={devpost} className="icons devpost"/>
+                        </div>
+                    <a href="/" target="_blank"> Share on Devpost</a>
+                    </div>
+
+                    <div>
+                        <div className="social-icons">
+                            <img src={twitter} className="icons twitter"/>
+                        </div>
+                    < a href="/" target="_blank">Follow Us (X)</a>
+                    </div>
+
+                    <div>
+                        <div className="social-icons">
+                            <img src={sponsor} className="icons sponsor"/>
+                        </div>
+                    < a href="/" target="_blank">Sponsor Us</a>
+                    </div>
+
+                    <div>
+                        <div className="social-icons">
+                            <img src={coc} className="icons coc"/>
+                        </div>
+                    < a href="/" target="_blank">MLH Code of Conduct</a>
+                    </div>
                     </div>
                 </div>
+                <div>
                 <img src={light2} className="light2"/>
+                <a href="https://lu.ma/event/evt-DbAIZ0uCNtCTWj3" target="_blank"><button className="register-btn2 ">Register</button></a>
+                <a href="https://discord.gg/QSvZxgwU" target="_blank"><button className="discord-btn2">Discord</button></a>
+                </div>
                 </section>
                 <div className="happyhacking">
+                    {/* <img src={mushroomrock} className="mushroomrock"/> */}
                     <h1>HAPPY HACKING!</h1>
                 </div>
         </main>
