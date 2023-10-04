@@ -135,7 +135,6 @@ function Home(){
             <section className="countdown-section">
             <div className="countdown">
                 <h1>Hackathon<br/>begins in</h1>
-                {/* <img src={snow2} className="snow2"/> */}
                 <iframe title="countdown" className="countdown-date" src="https://www.tickcounter.com/widget/countdown/4490171" ></iframe>
                 </div>
             </section>
