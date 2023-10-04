@@ -29,7 +29,7 @@ import shruti from '../assets/team/shruti.jpg';
 import crystalonrock from '../assets/crystal-rock crystal.png';
 import rockholder from '../assets/crystal-rock.png'
 import wand from '../assets/wand.png'
-import snowboy from '../assets/Snowboy (1).gif';
+import snowboy from '../assets/Snowboy.gif';
 import mail from "../assets/mail.png";
 import instagram from "../assets/instagram.png";
 import devpost from "../assets/devpost.png";
@@ -155,7 +155,7 @@ function Home(){
                         <p>Midnight Snacks <br/>& Surprise</p> <p>12:00 AM</p>
                         </div>
                     </div>
-                    <p></p>
+                    <p className="emptyp"></p>
                     <div className="day2">
                     {/* <img src={frame8} className="frame9"/> */}
                         <h1>SUNDAY</h1>

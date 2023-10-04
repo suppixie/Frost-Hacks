@@ -228,11 +228,7 @@ align-items: center;
     50%  { transform: translate(0, 8vh); }
     100%   { transform: translate(0, -0px); }
 }
- /* .trees{
-    width: 100vw;
-    margin-left: 0;
-    position: absolute;
- } */
+
 .info{
     height: auto;
     padding: 2vw;
@@ -260,9 +256,7 @@ align-items: center;
     
 
 }
-.snow3{
-    height: 10vh;
-}
+
 .tracks-section{
     margin: 0 2vw;
 }
@@ -407,8 +401,7 @@ align-items: center;
     background-position: center;
 
 }
-.day1{
-}
+
 .timeline{
     padding: 2vh 0 ;
     padding-bottom: 12vh;
@@ -442,16 +435,7 @@ align-items: center;
     margin-right: 1vw;
 }
 
-/* .frame8{
-    width: 30vw;
-    height: 15vh;
-   
-}
-.frame9{
-    width: 30vw;
-    height: 15vh;
 
-} */
 
 .tree-img{
     overflow-x: hidden;
@@ -716,6 +700,438 @@ margin: 0 1vw;
 
 
 @media (max-width:767px) {
+    .event-details h1{
+        font-size: 3.5rem;
+    }
+    .event-details h3{
+        font-size: 1.4rem;
+        color: rgb(255, 255, 255);
+        
+    }
+    .event-details h4{
+        font-size: 1.2rem;
+    }
+    .hero-btns{
+        display: block;
+        width: 30vw;
+    }
+    .register-btn{
+        padding: 2vh 5vw;
+        border-width: 5px;
+    }
+    .discord-btn{
+        margin-top: 1vh;
+        padding: 2vh 5.5vw;
+        border-width: 5px;
+
+    }
+    .snowboy{
+        position: absolute;
+        z-index: 3;
+        height: 10vh;
+        /* filter: drop-shadow(0 -1vh 3vh rgba(0, 0, 139, 0.586)); */
+        transform: translate(-10vw,38vh);
+    }
+    .rock-mountain{
+            width: 100%;
+    }
+    .rocks{
+        transform: translate(76vw,-14vh);
+        height: 40vh;
+        /* float: right; */
+    }
+    .bg-section{
+        height: 820vh;
+    }
+    .bg{
+        height: 95vh;
+        background-size:contain;
+    }
+
+    .bg2{
+        transform: translateY(-3vh);
+        height: 65vh;
+    }
+    .bg3{
+        z-index: -3;
+        width: 100vw;
+        height: 65vh;
+        transform: translateY(-5vh);
     
+    }
+    .bg4{
+        z-index: -3;
+        width: 100vw;
+        height: 65vh;
+        transform: translateY(-6vh);
+    }
+    .bg5{
+        z-index: -4;
+        width: 100vw;
+        transform: translateY(2vh);
+    }
+    .bg6{
+        z-index: -4;
+        width: 100vw;
+        transform: translateY(1vh);
+    }
+    .bg7{
+        z-index: -4;
+        width: 100vw;
+        transform: translateY(-0vh);
+    }
+
+    .about-section{
+        margin-top: 0;
+    }
+    
+    .about{
+    padding-bottom: 5vh;
+    grid-template-columns: 35vw 56vw;
+    column-gap: 1vw;
+    margin: 0 2vw;
+    /* padding-bottom: 10vh; */
+    }
+    .crystal-rock{
+        margin-right: 0vw;
+    }
+    .crystal-on-rock{
+        height: 10vh;
+     }
+     .rock-holder{
+        height: 22vh;
+        width: 30vw;
+     }
+     @keyframes float{
+        0% { transform: translate(0,  0px); }
+        50%  { transform: translate(0, 4vh); }
+        100%   { transform: translate(0, -0px); }
+    }
+    .info{
+        padding: 1vw;
+    }
+    .info h1{
+        font-size: 1.5rem;
+        padding: 2.5vw;
+    }
+    .info p{
+        font-size: 0.8rem;        
+    }
+
+    .tracks-section{
+        margin: 0 0vw;
+    }
+    .tracks{
+        display: flex;
+        justify-content: center;
+        /* grid-template-columns: 40% 40%; */
+    }
+    .crystal{
+        height: 8vh;
+        position: absolute;
+        transform: translate(-14vw,-6vh);
+    }
+    
+    .themes{
+        border: 3px solid rgb(35, 34, 53);
+        width: 18vw;
+        height: 33vh;
+    }
+    .tracks-section h2{
+        padding: 2.5vw;
+        font-size: 1.5rem;
+    }
+    
+    .themes h1{
+        font-size: 0.9rem;
+        height: auto;    
+    }
+    .themes p{
+        font-size: 0.7rem;
+    }
+    .track1{
+        transform: skewX(10deg) translateY(10%);
+    }
+    .track2{
+        transform: skewX(4deg) translateY(-8%);
+    }
+    .track3{
+        transform:skewX(-4deg) translateY(-8%) ;}
+    
+    .track4{
+        transform: skewX(-10deg) translateY(10%);
+    }
+    .teleporter{
+        height: 18vh;
+    }
+    
+    .countdown-section{
+        margin: 0 4vw;
+        margin-bottom: 5vh;
+    }
+    
+    .countdown{
+        font-size: 0.8rem;
+        padding-top: 2vh;
+    
+    }
+    .countdown-date{
+         width:60vw; 
+         height:15vh;  
+    }
+   
+    
+    .schedule-section h1{
+        font-size: 1rem;
+        border:3px outset rgb(176, 171, 153);
+    }
+    .schedule{
+        display: grid;
+        /* width: 100%; */
+        grid-template-columns:46vw 46vw;
+        column-gap: 3vw;
+       margin: 0 2vw;
+    }
+    .iceblock2,.iceblock3{
+        display: none;
+       
+    }
+    .emptyp{
+        display: none;
+    }
+    .schedule-container h2{
+        font-size: 1.5rem;
+        padding: 2.5vw;
+    }
+
+    .timeline{
+        padding: 1vh 0 ;
+        padding-bottom: 10vh;
+        height:45vh;  
+        filter: drop-shadow(0vh 0.5vh 1vh white);  
+    }
+    .timeline p{
+        margin: 1.2vh 0;
+        font-weight: 400;
+        letter-spacing: 0.8px;
+        font-size: 0.8rem;
+    }
+    
+    .sponsors{
+        margin-top: 5vh;
+        height: 10vh;
+    }
+    .sponsors h1{
+        font-size: 1.5rem;
+        padding: 2.5vw;
+    }
+    .sponsors h2{
+        font-size: 1rem;
+    }
+
+.faq-section{
+    text-align: center;
+    min-height: 65vh;
+    max-height:130vh;
+}
+.question-container{
+    margin: 0vh 24vw;
+    width: 55vw;
+    padding-top: 5vh;
+    text-align: left;
+}
+.question-container h1{
+    font-size: 1.5rem;
+    padding: 2.5vw;
 }
 
+.question-label{
+    margin: 1vh 0;
+    padding: 1vh;
+}
+.questions h4{
+   padding: 0 0.5vw;
+   font-size: 0.8rem;
+}
+.questions p{
+    margin: 0 1vw;
+    padding: 1vh 1vw;
+    font-size: 0.8rem;
+}
+.team-section{
+    height: 50vh;
+    margin: 2vh 1vw;
+    
+
+}
+.team-container{
+
+    display: grid;
+    grid-template-columns: 15vw 15vw 15vw 15vw;
+    color: white;
+}
+.team-section h1{
+    font-size: 1rem;
+    padding: 3.5vw;
+
+}
+.team-section p{
+    margin: 1vh 0;
+    color: rgb(35, 34, 53);
+    font-size: 1.1rem;
+}
+.team-pic{
+    border-radius: 15px;
+    height: 10vh;
+}
+.member{
+    border-radius: 15px;
+    border: 5px solid white;
+    background-color:lightcyan;
+    margin: 1vh 1vw;
+
+}
+.wand{
+    margin-top: 4vh;
+    width: 30vw;
+    float: right;
+}
+.sponsors{
+    margin-top: 15vh;
+    color: white;
+    height: 20vh;
+}
+.sponsors h1{
+    font-size: 2.5rem;
+    padding: 2vw;
+    color: rgb(20, 10, 66);
+    font-family: "Marcellus SC";
+    background-image: url('../assets/frame1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.contact-section{
+    margin: 10vh 3vw;
+    display: grid;
+    grid-template-columns: 72vw 10vw
+}
+.contact{
+    margin: 0 5vw;
+    color: white;
+    
+}
+  
+.socials{
+    display: grid;
+    grid-template-columns: 30vw 30vw;
+    row-gap: 3vw;
+    text-align: left;
+}
+.socials div{
+    display: flex;
+    align-items: center;
+}
+.socials div a{
+    /* background-image: url(https://i.pinimg.com/originals/be/5e/71/be5e71a29b38a1c15cc266a9a360e5ae.png); */
+    padding: 1.5vh;
+    border-radius: 12px;
+    color: white;
+    font-weight: bold;
+    border-bottom: 8px solid azure;
+    text-decoration: none;
+    margin: 0;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    width: 14vw;
+    background-image: linear-gradient(to top, rgba(131, 129, 255, 0.632), transparent);
+
+}
+.social-icons{
+    margin-right: 2vw;
+}
+.coc img,.devpost img{
+    height: 8vh;
+}
+.contact h1{
+    font-size: 2rem;
+    text-align: left;
+    font-family: "Marcellus SC";
+    background-image: url('../assets/frame6.png');
+    padding: 1.2vw;
+    padding-top: 1vw;
+    padding-left: 4vw;
+    color: rgb(20, 10, 66);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    margin-top: 2vw;
+}
+/* .footer-btn a{
+    text-decoration: none;
+} */
+.light2{
+    height: 35vh;
+    transform: translate(1.5vw,-4vh);
+    filter: drop-shadow(0 4vh 4vh rgb(255, 230, 0));
+    animation: swing 2s infinite;
+}
+
+.icons{
+    height: 10vh;
+}
+
+.register-btn2{
+    padding: 2vh 4vw;
+    margin-top: 2vh;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(50, 25, 162);
+    font-size: 1.2rem;
+    margin-right: 2vw;
+    cursor: pointer;
+    border: 1vh outset lightblue;
+}
+.register-btn2 a{
+    text-decoration: none;
+    color: white;
+}
+.register-btn2:hover{
+    background-color: rgb(42, 42, 81);
+    transform: scale(1.05);
+
+}
+.discord-btn2{
+    padding: 2vh 4vw;
+    margin-top: 5vh;
+    color: rgb(42, 42, 58);
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(218, 223, 255);
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: 1vh outset rgb(113, 145, 155);
+}
+.discord-btn2:hover{
+    background-color: azure;
+    transform: scale(1.05);
+
+}
+.happyhacking{
+    display: flex;
+    justify-content: center;
+}
+.mushroomrock{
+    height: 30vh;
+}
+.happyhacking h1{
+    padding: 0;
+    margin: 0;
+    font-size: 4rem;
+    color: aliceblue;
+    font-family: "Marcellus SC";
+}
+
+}
