@@ -3,7 +3,6 @@ import "../components/home.css";
 
 import "../fonts/fonts.css";
 import "../fonts/marcellus-sc/MarcellusSC-Regular.ttf";
-import "../fonts/death-star-font/DeathStar-VmWB.ttf";
 import "../fonts/grim-reaper-font/GrimReaper-jEBRO.ttf";
 import logo from "../assets/logo2 (1).png";
 import icebg from '../assets/art3.png';
