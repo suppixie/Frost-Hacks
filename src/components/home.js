@@ -2,7 +2,7 @@ import React from "react";
 import "../components/home.css";
 
 import "../fonts/fonts.css";
-import "../fonts/breathe-fire-iii-font/BreatheFireIii-PKLOB.ttf";
+import "../fonts/marcellus-sc/MarcellusSC-Regular.ttf";
 import "../fonts/death-star-font/DeathStar-VmWB.ttf";
 import "../fonts/grim-reaper-font/GrimReaper-jEBRO.ttf";
 import logo from "../assets/logo2 (1).png";
@@ -30,9 +30,7 @@ import shruti from '../assets/team/shruti.jpg';
 import crystalonrock from '../assets/crystal-rock crystal.png';
 import rockholder from '../assets/crystal-rock.png'
 import wand from '../assets/wand.png'
-import snowboy from '../assets/Snowboy.gif';
-// import mushroomrock from "../assets/ice props.png";
-// import iceblock from "../assets/ice blocks1.png";
+import snowboy from '../assets/Snowboy (1).gif';
 import mail from "../assets/mail.png";
 import instagram from "../assets/instagram.png";
 import devpost from "../assets/devpost.png";
