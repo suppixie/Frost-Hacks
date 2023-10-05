@@ -1,0 +1,42 @@
+.countdown-section {
+    margin: 0 8vw;
+    margin-bottom: 5vh;
+    /* height: 50vh; */
+}
+
+.countdown {
+    font-size: 2rem;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    left: 0;
+    padding-top: 10vh;
+    font-family: "Marcellus SC";
+
+}
+
+.countdown-date {
+    z-index: -1;
+    width: 60vw;
+    height: 25vh;
+    border: 0;
+}
+
+@media (max-width:767px) {
+    .countdown-section {
+        margin: 0 4vw;
+        margin-bottom: 5vh;
+    }
+
+    .countdown {
+        font-size: 0.8rem;
+        padding-top: 2vh;
+
+    }
+
+    .countdown-date {
+        width: 60vw;
+        height: 15vh;
+    }
+}

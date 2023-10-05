@@ -8,7 +8,7 @@ import Tracks from './Tracks';
 import About from './About';
 
 import React from "react";
-import "../components/home.css";
+import "./styles/home.css";
 
 import "../fonts/fonts.css";
 import "../fonts/marcellus-sc/MarcellusSC-Regular.ttf";
@@ -25,9 +25,7 @@ import art14 from '../assets/art14.png';
 
 import Hero from "./Hero";
 
-
-
-function Home() {
+const Home = () => {
     return (
         <main>
             <section className="bg-section">

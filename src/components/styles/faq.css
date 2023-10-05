@@ -1,0 +1,125 @@
+.faq-section {
+    text-align: center;
+    min-height: 150vh;
+    max-height: 180vh;
+}
+
+.tree-img {
+    overflow-x: hidden;
+    width: 100vw;
+}
+
+.tree {
+    width: 100vw;
+    transform: translateX(-50vw);
+    position: absolute;
+    z-index: -2;
+}
+
+
+.question-container {
+    margin: 2vh 25vw;
+    width: 50vw;
+    padding-top: 20vh;
+    text-align: left;
+}
+
+.question-container h1 {
+    color: rgb(20, 10, 66);
+    font-size: 2.5rem;
+    padding: 2vw;
+    font-weight: bolder;
+    text-align: center;
+    font-family: "Marcellus SC";
+    background-image: url('../../assets/frame1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.questions label {
+    cursor: pointer;
+}
+
+.question-label {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5vh 0;
+    background-image: url(https://i.pinimg.com/originals/be/5e/71/be5e71a29b38a1c15cc266a9a360e5ae.png);
+    border-radius: 20px;
+    padding: 2vh;
+    /* border-bottom: 4px outset rgb(86, 125, 245); */
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+    background-color: rgb(35, 35, 129);
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin: 0 1vw;
+}
+
+.question-checkbox:checked~.answer {
+    max-height: fit-content;
+    transition: max-height 0.3s ease-in-out;
+}
+
+.question-checkbox:checked~.question-label span {
+    transform: rotateZ(60deg);
+}
+
+.questions h4 {
+    margin: 0;
+    font-weight: 600;
+    color: rgb(35, 34, 53);
+    padding: 0 1vw;
+}
+
+.questions p {
+    color: azure;
+    font-weight: 500;
+    margin: 0 1vw;
+    padding: 2vh 1vw;
+    font-size: 0.9rem;
+}
+
+@media (max-width:767px) {
+    .faq-section {
+        text-align: center;
+        min-height: 65vh;
+        max-height: 130vh;
+    }
+
+    .question-container {
+        margin: 0vh 24vw;
+        width: 55vw;
+        padding-top: 5vh;
+        text-align: left;
+    }
+
+    .question-container h1 {
+        font-size: 1.5rem;
+        padding: 2.5vw;
+    }
+
+    .question-label {
+        margin: 1vh 0;
+        padding: 1vh;
+    }
+
+    .questions h4 {
+        padding: 0 0.5vw;
+        font-size: 0.8rem;
+    }
+
+    .questions p {
+        margin: 0 1vw;
+        padding: 1vh 1vw;
+        font-size: 0.8rem;
+    }
+}

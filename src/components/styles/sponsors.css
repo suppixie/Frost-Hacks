@@ -1,0 +1,52 @@
+.sponsors {
+    margin-top: 15vh;
+    color: white;
+    height: 20vh;
+}
+
+.sponsors h1 {
+    font-size: 2.5rem;
+    padding: 2vw;
+    color: rgb(20, 10, 66);
+    font-family: "Marcellus SC";
+    background-image: url('../../assets/frame1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+@media (max-width:767px) {
+
+    .sponsors {
+        margin-top: 5vh;
+        height: 10vh;
+    }
+
+    .sponsors h1 {
+        font-size: 1.5rem;
+        padding: 2.5vw;
+    }
+
+    .sponsors h2 {
+        font-size: 1rem;
+    }
+
+    .sponsors {
+        margin-top: 15vh;
+        color: white;
+        height: 20vh;
+    }
+
+    .sponsors h1 {
+        font-size: 2.5rem;
+        padding: 2vw;
+        color: rgb(20, 10, 66);
+        font-family: "Marcellus SC";
+        background-image: url('../../assets/frame1.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+
+    }
+}

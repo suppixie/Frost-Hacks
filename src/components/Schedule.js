@@ -1,8 +1,10 @@
 import React from "react";
 import iceblock2 from "../assets/ice blocks2.png";
 import iceblock3 from "../assets/ice blocks3.png"
+import './styles/schedule.css'
 
 export default function Schedule() {
+
     return <section className="schedule-section" id="schedule">
         <div className="schedule-container">
             <h2>Schedule</h2>

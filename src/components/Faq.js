@@ -1,8 +1,10 @@
 import React from "react";
 import tree from '../assets/trees1.png';
+import './styles/faq.css'
 
 
 export default function Faq() {
+
     return <section className="faq-section">
         <div className="tree-img">
             <img src={tree} className="tree" alt="prop" />

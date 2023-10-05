@@ -2,10 +2,13 @@ import React from "react";
 import snowboy from '../assets/Snowboy.gif';
 import rocks from '../assets/rocks5.png'
 import Navbar from "./Navbar";
+import '../components/styles/hero.css'
+
 export default function Hero() {
-    return <><div className="snowboy-animation">
-        <img src={snowboy} className="snowboy" alt="animation" />
-    </div>
+    return <>
+        <div className="snowboy-animation">
+            <img src={snowboy} className="snowboy" alt="animation" />
+        </div>
         <section className="hero">
             <Navbar />
             <div className="event-details">

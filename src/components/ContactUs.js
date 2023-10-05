@@ -6,6 +6,7 @@ import devpost from "../assets/devpost.png";
 import coc from "../assets/coc.png";
 import twitter from "../assets/twitter.png";
 import sponsor from "../assets/sponsor.png";
+import './styles/contactUs.css'
 
 export default function ContactUs() {
     return <section className="contact-section" id="contact">

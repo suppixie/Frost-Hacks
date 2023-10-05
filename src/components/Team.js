@@ -6,6 +6,7 @@ import nayan from '../assets/team/nayan.jpeg';
 import sneha from '../assets/team/sneha.jpg';
 import shruti from '../assets/team/shruti.jpg';
 import wand from '../assets/wand.png'
+import './styles/team.css'
 
 
 export default function Team() {

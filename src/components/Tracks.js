@@ -4,6 +4,8 @@ import crystal1 from '../assets/crystal2.png';
 import crystal2 from '../assets/crystal11.png';
 import crystal3 from '../assets/crystal3.png';
 import crystal4 from '../assets/crystal4.png';
+import './styles/tracks.css'
+
 
 export default function Tracks() {
     return <section className="tracks-section" id="tracks">

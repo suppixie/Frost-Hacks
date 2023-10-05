@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Proxima+Nova&family=Mooli&family=Cinzel:wght@700&family=Lora&family=EB+Garamond&family=DM+Serif+Display&family=Marcellus+SC&family=Oleo+Script&family=Poppins:wght@300;400&display=swap');
+
+body {
+    scroll-behavior: smooth;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Proxima Nova";
+    /* font-family:'Trebuchet MS',sans-serif; */
+    overflow-x: hidden;
+}
+
+main {
+    overflow-x: hidden;
+    width: 100vw;
+}
+
+.bg-section {
+    top: 0;
+    margin: 0;
+    z-index: -2;
+    position: absolute;
+    background-color: rgb(20, 10, 66);
+    overflow: hidden;
+    height: 890vh;
+    width: 100vw;
+}
+
+.bg {
+    height: 120vh;
+    width: 100vw;
+    background-size: cover;
+    z-index: -2;
+}
+
+/* .stone{
+    height: 70vh;
+    /* transform: translate(0,-120vh); */
+.bg2 {
+    z-index: -3;
+    transform: translateY(-4vh);
+    width: 100vw;
+    background-size: cover;
+}
+
+.bg3 {
+    z-index: -3;
+    width: 100vw;
+    transform: translateY(-12vh);
+
+}
+
+.bg4 {
+    z-index: -3;
+    width: 100vw;
+    transform: translateY(-20vh);
+}
+
+.bg5 {
+    z-index: -4;
+    width: 100vw;
+    transform: translateY(-21vh);
+}
+
+.bg6 {
+    z-index: -4;
+    width: 100vw;
+    transform: translateY(-40vh);
+}
+
+.bg7 {
+    z-index: -4;
+    width: 100vw;
+    transform: translateY(-65vh);
+}
+
+/* @keyframes turn {
+    0%{
+        transform: skew(15deg,2deg);
+    }
+    100%{
+        transform: skew(-25deg,10deg);
+    }
+    
+} */
+/* .boy-animation{
+    height: 40vh;
+} */
+
+.event-details {
+    color: white;
+    text-align: left;
+    padding-left: 3vw;
+
+}
+
+.event-details h1 {
+    color: rgb(35, 34, 53);
+    margin: 0;
+    font-size: 6.5rem;
+    text-align: left;
+    /* font-family:"cinzel"; */
+    font-family: "grim-reaper";
+    /* font-family:" breathe-fire"; */
+    /* font-family:"death-star"; */
+    /* font-family:" dragon-hunter"; */
+    font-weight: bold;
+
+}
+
+.event-details h3 {
+    margin: 0;
+    text-align: left;
+    font-size: 1.8rem;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.event-details h4 {
+    color: rgb(20, 10, 66);
+    font-size: 1.7rem;
+    font-family: 'Trebuchet MS', sans-serif;
+    margin: 2vh 0;
+    margin-top: 0;
+}
+
+.register-btn {
+    padding: 2vh 3vw;
+    margin-top: 5vh;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(42, 42, 58);
+    font-size: 1.1rem;
+    margin-right: 2vw;
+    cursor: pointer;
+    border: 1vh outset lightblue;
+}
+
+.register-btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.register-btn:hover {
+    background-color: rgb(42, 42, 81);
+    transform: scale(1.05);
+
+}
+
+.discord-btn {
+    padding: 2vh 3vw;
+    margin-top: 5vh;
+    color: rgb(42, 42, 58);
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+    cursor: pointer;
+    border: 1vh outset rgb(113, 145, 155);
+
+}
+
+.discord-btn:hover {
+    background-color: azure;
+    transform: scale(1.05);
+
+}
+
+.light {
+    height: 80vh;
+    margin-right: 1vw;
+}
+
+.happyhacking {
+    display: flex;
+    justify-content: center;
+}
+
+.mushroomrock {
+    height: 30vh;
+}
+
+.happyhacking h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 4rem;
+    color: aliceblue;
+    font-family: "Marcellus SC";
+}
+
+@media (max-width:767px) {
+    .event-details h1 {
+        font-size: 3.5rem;
+    }
+
+    .event-details h3 {
+        font-size: 1.4rem;
+        color: rgb(255, 255, 255);
+
+    }
+
+    .event-details h4 {
+        font-size: 1.2rem;
+    }
+
+
+    .register-btn {
+        padding: 2vh 5vw;
+        border-width: 5px;
+    }
+
+    .discord-btn {
+        margin-top: 1vh;
+        padding: 2vh 5.5vw;
+        border-width: 5px;
+
+    }
+
+    .bg-section {
+        height: 820vh;
+    }
+
+    .bg {
+        height: 95vh;
+        background-size: contain;
+    }
+
+    .bg2 {
+        transform: translateY(-3vh);
+        height: 65vh;
+    }
+
+    .bg3 {
+        z-index: -3;
+        width: 100vw;
+        height: 65vh;
+        transform: translateY(-5vh);
+
+    }
+
+    .bg4 {
+        z-index: -3;
+        width: 100vw;
+        height: 65vh;
+        transform: translateY(-6vh);
+    }
+
+    .bg5 {
+        z-index: -4;
+        width: 100vw;
+        transform: translateY(2vh);
+    }
+
+    .bg6 {
+        z-index: -4;
+        width: 100vw;
+        transform: translateY(1vh);
+    }
+
+    .bg7 {
+        z-index: -4;
+        width: 100vw;
+        transform: translateY(-0vh);
+    }
+
+    .happyhacking {
+        display: flex;
+        justify-content: center;
+    }
+
+    .mushroomrock {
+        height: 30vh;
+    }
+
+    .happyhacking h1 {
+        padding: 0;
+        margin: 0;
+        font-size: 4rem;
+        color: aliceblue;
+        font-family: "Marcellus SC";
+    }
+
+}

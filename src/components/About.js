@@ -1,6 +1,7 @@
 import React from "react";
 import crystalonrock from '../assets/crystal-rock crystal.png';
 import rockholder from '../assets/crystal-rock.png'
+import './styles/about.css'
 
 export default function About() {
   return <section className="about-section" id="about">
