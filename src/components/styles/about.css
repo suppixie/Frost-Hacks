@@ -1,0 +1,123 @@
+.about-section {
+    margin-top: 38vh;
+    width: 100%;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: 40vw 50vw;
+    margin: 0 5vw;
+    padding-bottom: 10vh;
+    align-items: center;
+}
+
+.crystal-rock {
+    margin-right: 3vw;
+    margin-left: 0;
+}
+
+.crystal-on-rock {
+    animation: float 4s ease-in-out infinite;
+    height: 35vh;
+    filter: drop-shadow(0vh 5vh 4vh rgb(41, 184, 255));
+}
+
+.rock-holder {
+    height: 65vh;
+}
+
+.info {
+    height: auto;
+    padding: 2vw;
+    padding-left: 0;
+    margin: 0;
+    color: rgb(35, 34, 53);
+    border: none;
+}
+
+.info h1 {
+    color: rgb(20, 10, 66);
+    font-weight: bolder;
+    font-size: 2.5rem;
+    padding: 2vw;
+    font-family: "Marcellus SC";
+    background-image: url('../../assets/frame1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.info p {
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 0;
+    font-weight: 500;
+}
+
+@keyframes float {
+    0% {
+        transform: translate(0, 0px);
+    }
+
+    50% {
+        transform: translate(0, 8vh);
+    }
+
+    100% {
+        transform: translate(0, -0px);
+    }
+}
+
+@media (max-width:767px) {
+    .about-section {
+        margin-top: 0;
+    }
+
+    .about {
+        padding-bottom: 5vh;
+        grid-template-columns: 35vw 56vw;
+        column-gap: 1vw;
+        margin: 0 2vw;
+        /* padding-bottom: 10vh; */
+    }
+
+    .crystal-rock {
+        margin-right: 0vw;
+    }
+
+    .crystal-on-rock {
+        height: 10vh;
+    }
+
+    .rock-holder {
+        height: 22vh;
+        width: 30vw;
+    }
+
+    .info {
+        padding: 1vw;
+    }
+
+    .info h1 {
+        font-size: 1.5rem;
+        padding: 2.5vw;
+    }
+
+    .info p {
+        font-size: 0.8rem;
+    }
+
+    @keyframes float {
+        0% {
+            transform: translate(0, 0px);
+        }
+
+        50% {
+            transform: translate(0, 4vh);
+        }
+
+        100% {
+            transform: translate(0, -0px);
+        }
+    }
+}

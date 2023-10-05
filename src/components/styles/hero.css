@@ -1,0 +1,51 @@
+.snowboy {
+    position: absolute;
+    z-index: 3;
+    height: 12vh;
+    /* filter: drop-shadow(0 -1vh 3vh rgba(0, 0, 139, 0.586)); */
+    transform: translate(-6vw, 42vh);
+}
+
+.hero {
+    /* width: 100vw; */
+    height: 100vh;
+}
+
+.hero-btns {
+    display: flex;
+}
+.rock-mountain {
+    width: 112vw;
+
+}
+
+.rocks {
+    transform: translateY(-10vh);
+    height: 80vh;
+    float: right;
+}
+
+@media (max-width:767px) {
+    .snowboy {
+        position: absolute;
+        z-index: 3;
+        height: 10vh;
+        /* filter: drop-shadow(0 -1vh 3vh rgba(0, 0, 139, 0.586)); */
+        transform: translate(-10vw, 38vh);
+    }
+
+    .hero-btns {
+        display: block;
+        width: 30vw;
+    }
+
+    .rock-mountain {
+        width: 100%;
+    }
+
+    .rocks {
+        transform: translate(76vw, -14vh);
+        height: 40vh;
+        /* float: right; */
+    }
+}

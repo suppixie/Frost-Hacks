@@ -1,0 +1,134 @@
+.tracks-section {
+    margin: 0 2vw;
+}
+
+.tracks-section h2 {
+    /* margin: 0; */
+    padding: 2vw;
+    /* padding-bottom: 10vh; */
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: rgb(20, 10, 66);
+    font-family: "Marcellus SC";
+    background-image: url('../../assets/frame1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.tracks {
+    padding: 4vh 4vw;
+    display: flex;
+    /* grid-template-columns: 40% 40%; */
+}
+
+.themes {
+    background-image: url(https://i.pinimg.com/originals/be/5e/71/be5e71a29b38a1c15cc266a9a360e5ae.png);
+    background-size: cover;
+    border: 2vh solid rgb(35, 34, 53);
+    border-radius: 16px;
+    border-style: outset;
+    color: rgb(55, 40, 168);
+    width: 20vw;
+    margin-right: 3vw;
+    background-color: transparent;
+    padding: 1vh 1vw;
+    /* margin-bottom: 5vh; */
+}
+
+.themes h1 {
+    font-size: 2rem;
+    /* width: 10vw; */
+    text-align: right;
+    margin: 0;
+    height: 15vh;
+    overflow: hidden;
+    font-family: "Marcellus SC";
+
+}
+
+.crystal {
+    height: 20vh;
+    position: absolute;
+    transform: translate(-12vw, -8vh);
+}
+
+.teleporter {
+    height: 35vh;
+}
+
+.track1 {
+    transform: skewX(10deg) translateY(10%);
+}
+
+.track2 {
+    transform: skewX(6deg) translateY(-8%);
+}
+
+.track3 {
+    transform: skewX(-6deg) translateY(-8%);
+}
+
+.track4 {
+    transform: skewX(-12deg) translateY(10%);
+    margin-right: 0;
+}
+
+@media (max-width:767px) {
+    .tracks-section {
+        margin: 0 0vw;
+    }
+
+    .tracks-section h2 {
+        padding: 2.5vw;
+        font-size: 1.5rem;
+    }
+
+    .tracks {
+        display: flex;
+        justify-content: center;
+        /* grid-template-columns: 40% 40%; */
+    }
+
+    .themes {
+        border: 3px solid rgb(35, 34, 53);
+        width: 18vw;
+        height: 33vh;
+    }
+
+    .themes h1 {
+        font-size: 0.9rem;
+        height: auto;
+    }
+
+    .themes p {
+        font-size: 0.7rem;
+    }
+
+    .crystal {
+        height: 8vh;
+        position: absolute;
+        transform: translate(-14vw, -6vh);
+    }
+
+    .teleporter {
+        height: 18vh;
+    }
+
+    .track1 {
+        transform: skewX(10deg) translateY(10%);
+    }
+
+    .track2 {
+        transform: skewX(4deg) translateY(-8%);
+    }
+
+    .track3 {
+        transform: skewX(-4deg) translateY(-8%);
+    }
+
+    .track4 {
+        transform: skewX(-10deg) translateY(10%);
+    }
+}
