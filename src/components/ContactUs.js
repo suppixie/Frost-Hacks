@@ -20,7 +20,7 @@ export default function ContactUs() {
                             /* <img src={iceblock} className="iceblock"/> */
                         }
                     </div>
-                    <a href="mailto:info@frosthacks.org">info@frosthacks.org</a>
+                    <a href="mailto:frosthacks2023@gmail.com">frosthacks2023@gmail.com</a>
                 </div>
 
                 <div>
@@ -59,7 +59,7 @@ export default function ContactUs() {
                 </div>
             </div>
         </div>
-        <div>
+        <div className="footer-btns">
             <img src={light2} className="light2" alt="prop" />
             <a href="https://lu.ma/event/evt-DbAIZ0uCNtCTWj3" target="_blank" rel="noreferrer"><button className="register-btn2 ">Register</button></a>
             <a href="https://discord.gg/QSvZxgwU" target="_blank" rel="noreferrer"><button className="discord-btn2">Discord</button></a>

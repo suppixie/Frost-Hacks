@@ -11,16 +11,16 @@ export default function Faq() {
         </div>
         <div className="question-container">
             <h1 id="faq">Faq</h1>
-            <div className="questions">
+            {/* <div className="questions">
                 <input hidden type="checkbox" id="question1" class="question-checkbox" />
                 <label for="question1" className="question-label">
                     <h4>What is Frost Hacks?</h4>
                     <span>&#9660;</span>
                 </label>
                 <div className="answer">
-                    <p>FROST HACKS is a thrilling 24-hour hackathon hosted at the prestigious Institute of Aeronautical Engineering (IARE) that invites students with a passion for coding, regardless of their skill level, to unleash their creativity and enhance their coding abilities.</p>
+                    <p>FROST HACKS is a thrilling 30-hour hackathon hosted at the IARE college that invites students with a passion for coding, regardless of their skill level, to unleash their creativity and enhance their coding abilities.</p>
                 </div>
-            </div>
+            </div> */}
 
             <div className="questions">
                 <input hidden type="checkbox" id="question2" class="question-checkbox" />
@@ -40,7 +40,7 @@ export default function Faq() {
                     <span>&#9660;</span>
                 </label>
                 <div className="answer">
-                    <p>Stay connected with us by joining our discord server. We'll keep you informed about the latest news and exciting developments.</p>
+                    <p>Stay connected with us by joining our discord server. We'll keep you informed about the latest news and announcements.</p>
                 </div>
             </div>
 
@@ -85,8 +85,7 @@ export default function Faq() {
                     <span>&#9660;</span>
                 </label>
                 <div className="answer">
-                    <p>You can mail us at info@frosthacks.org or reach out on instagram @frosthacks.iare</p>
-
+                    <p>You can mail us at frosthacks2023@gmail.com or reach out on instagram @frosthacks.iare</p>
                 </div></div>
         </div>
     </section>;

@@ -2,6 +2,7 @@
     text-align: center;
     min-height: 150vh;
     max-height: 180vh;
+    overflow-x: hidden;
 }
 
 .tree-img {
@@ -108,18 +109,26 @@
     }
 
     .question-label {
-        margin: 1vh 0;
+        margin: 0vh 0;
         padding: 1vh;
+        border-radius: 12px;
+    }
+    .questions{
+        margin-bottom: 0.5vh;
     }
 
     .questions h4 {
         padding: 0 0.5vw;
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 
     .questions p {
         margin: 0 1vw;
         padding: 1vh 1vw;
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
+    .answer{
+        margin: 0 2vw;
+    }
+
 }

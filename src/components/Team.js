@@ -17,9 +17,6 @@ export default function Team() {
                 <div>
                     <div className="member">
                         <img src={harshitha} className="team-pic" alt="team" /> <p>Harshitha ⚡</p></div>
-                    {
-                        /* <img src={spikes} className="spikes"/> */
-                    }
                 </div>
                 <div>
                     <div className="member">

@@ -26,6 +26,7 @@
     .sponsors h1 {
         font-size: 1.5rem;
         padding: 2.5vw;
+        margin: 0;
     }
 
     .sponsors h2 {
@@ -38,15 +39,5 @@
         height: 20vh;
     }
 
-    .sponsors h1 {
-        font-size: 2.5rem;
-        padding: 2vw;
-        color: rgb(20, 10, 66);
-        font-family: "Marcellus SC";
-        background-image: url('../../assets/frame1.png');
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-
-    }
+ 
 }

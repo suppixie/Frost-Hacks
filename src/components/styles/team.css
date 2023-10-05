@@ -51,47 +51,45 @@
 
 @media (max-width:767px) {
 .team-section {
-        height: 50vh;
+        height: auto;
         margin: 2vh 1vw;
-
-
     }
 
     .team-container {
-
         display: grid;
-        grid-template-columns: 15vw 15vw 15vw 15vw;
+        grid-template-columns: 20vw 20vw 20vw 20vw;
         color: white;
     }
 
     .team-section h1 {
         font-size: 1rem;
-        padding: 3.5vw;
+        padding:4vw;
 
     }
 
     .team-section p {
-        margin: 1vh 0;
+        margin: 0.5vh 0;
         color: rgb(35, 34, 53);
-        font-size: 1.1rem;
+        font-size: 0.65rem;
     }
 
     .team-pic {
         border-radius: 15px;
-        height: 10vh;
+        height: 11.5vh;
     }
 
     .member {
         border-radius: 15px;
-        border: 5px solid white;
+        border: 2px solid white;
         background-color: lightcyan;
         margin: 1vh 1vw;
+        /* padding: 0 1vh; */
 
     }
 
     .wand {
         margin-top: 4vh;
-        width: 30vw;
+        width: 60vw;
         float: right;
     }
 }

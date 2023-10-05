@@ -120,22 +120,24 @@
 
 @media (max-width:767px) {
     .contact-section {
-        margin: 10vh 3vw;
+        margin: 12vh 6vw;
         display: grid;
-        grid-template-columns: 72vw 10vw
+        grid-template-columns: 75vw
     }
 
     .contact {
-        margin: 0 5vw;
+        margin: 0 0vw;
         color: white;
 
     }
 
     .socials {
         display: grid;
-        grid-template-columns: 30vw 30vw;
-        row-gap: 3vw;
+        grid-template-columns: 38vw 38vw;
+        row-gap: 4vh;
+        column-gap: 10vw;
         text-align: left;
+        margin-top: 5vh;
     }
 
     .socials div {
@@ -144,98 +146,59 @@
     }
 
     .socials div a {
-        /* background-image: url(https://i.pinimg.com/originals/be/5e/71/be5e71a29b38a1c15cc266a9a360e5ae.png); */
-        padding: 1.5vh;
-        border-radius: 12px;
-        color: white;
-        font-weight: bold;
-        border-bottom: 8px solid azure;
-        text-decoration: none;
-        margin: 0;
-        font-size: 1.1rem;
+        padding: 1vh 0.5vh;
+        border-bottom: 4px solid azure;
+        /* margin: 0; */
+        font-weight: normal;
+        font-size: 0.6rem;
         letter-spacing: 1px;
-        width: 14vw;
-        background-image: linear-gradient(to top, rgba(131, 129, 255, 0.632), transparent);
-
+        width: 36vw;
     }
 
     .social-icons {
-        margin-right: 2vw;
+        margin-right: 1vw;
     }
 
     .coc img,
     .devpost img {
-        height: 8vh;
+        height: 3vh;
     }
 
     .contact h1 {
-        font-size: 2rem;
-        text-align: left;
-        font-family: "Marcellus SC";
-        background-image: url('../../assets/frame6.png');
-        padding: 1.2vw;
+        font-size: 1rem;
+        padding: 2vw;
         padding-top: 1vw;
-        padding-left: 4vw;
-        color: rgb(20, 10, 66);
-        background-repeat: no-repeat;
-        background-position: left;
-        background-size: contain;
+        padding-left: 5vw;
+       
         margin-top: 2vw;
     }
 
-    /* .footer-btn a{
-        text-decoration: none;
-    } */
     .light2 {
-        height: 35vh;
-        transform: translate(1.5vw, -4vh);
-        filter: drop-shadow(0 4vh 4vh rgb(255, 230, 0));
-        animation: swing 2s infinite;
+        height: 15vh;
+        transform: translate(75vw, -42vh);
+        position: absolute;
     }
 
     .icons {
-        height: 10vh;
+        height: 3vh;
     }
-
-    .register-btn2 {
-        padding: 2vh 4vw;
+    .footer-btns{
         margin-top: 2vh;
-        color: white;
-        border: none;
-        border-radius: 10px;
-        background-color: rgb(50, 25, 162);
-        font-size: 1.2rem;
-        margin-right: 2vw;
-        cursor: pointer;
-        border: 1vh outset lightblue;
+        display: flex;
+        justify-content: space-between;
     }
-
-    .register-btn2 a {
-        text-decoration: none;
-        color: white;
-    }
-
-    .register-btn2:hover {
-        background-color: rgb(42, 42, 81);
-        transform: scale(1.05);
-
+    .register-btn2 {
+        padding: 1vh 2vw;
+        margin: 0;
+        font-size: 0.8rem;
+        border: 2px outset lightblue;
     }
 
     .discord-btn2 {
-        padding: 2vh 4vw;
-        margin-top: 5vh;
-        color: rgb(42, 42, 58);
-        border: none;
-        border-radius: 10px;
-        background-color: rgb(218, 223, 255);
-        font-size: 1.2rem;
-        cursor: pointer;
-        border: 1vh outset rgb(113, 145, 155);
+        padding: 1vh 2vw;
+        margin-top: 0vh;
+        font-size: 0.8rem;
+        border: 2px outset rgb(113, 145, 155);
     }
 
-    .discord-btn2:hover {
-        background-color: azure;
-        transform: scale(1.05);
-
-    }
 }

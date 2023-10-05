@@ -36,15 +36,16 @@
 
     .hero-btns {
         display: block;
-        width: 30vw;
+        width: 28vw;
     }
 
     .rock-mountain {
         width: 100%;
+        position: absolute;
     }
 
     .rocks {
-        transform: translate(76vw, -14vh);
+        transform: translate(100vw, -8vh);
         height: 40vh;
         /* float: right; */
     }
