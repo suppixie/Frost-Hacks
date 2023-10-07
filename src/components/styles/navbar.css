@@ -1,6 +1,7 @@
 .navbar {
     margin: 2vh 3vw;
     display: flex;
+
 }
 
 .navbar ul {
@@ -24,4 +25,47 @@
 .logo {
     height: 10vh;
     margin-right: 1vw;
+}
+.hamburger-navbar{
+    display: none;
+}
+
+@media (max-width:767px) {
+    .navbar{
+        align-items: center;
+        justify-content: space-between;
+    }
+    .navbar ul{
+        display: none;
+    }
+    .hamburger-navbar{
+        display: block;
+    }
+    .bars{
+        padding: 2vh;
+    }
+    .bars p{
+        margin: 0;
+        background-color: white;
+        margin-bottom: 1vh;
+        height: 0.8vh;
+        width: 6vw;
+    }
+    .dropdown{
+        display: none;
+        text-align: right;
+        position:absolute;
+        transform: translateX(-6vw);
+        background-color: azure;
+        padding: 1vw;
+    }
+    
+.dropdown.open {
+    z-index: 4;
+    display: block;
+  }
+.dropdown a{
+    text-decoration: none;
+    color:rgb(12, 23, 56);
+}
 }

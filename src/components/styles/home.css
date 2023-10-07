@@ -190,6 +190,9 @@ main {
 }
 
 @media (max-width:767px) {
+    .main{
+        background-color: rgb(20, 10, 66);
+    }
     .event-details h1 {
         font-size: 3.5rem;
     }
@@ -218,7 +221,10 @@ main {
     }
 
     .bg-section {
-        height: 570vh;
+        /* height: 570vh; */
+        max-height: 610vh;
+        background-color: rgb(20, 10, 66);
+
     }
 
     .bg {
@@ -249,24 +255,41 @@ main {
     .bg5 {
         z-index: -4;
         width: 100vw;
-        transform: translateY(2vh);
+        height: 65vh;
+
+        transform: translateY(-8vh);
     }
 
     .bg6 {
         z-index: -4;
         width: 100vw;
-        transform: translateY(1vh);
+        height: 65vh;
+        transform: translateY(-9vh);
     }
 
     .bg7 {
         z-index: -4;
         width: 100vw;
-        transform: translateY(-0vh);
+        height: 65vh;
+        transform: translateY(-10vh);
+    }
+    .bg8{
+        z-index: -4;
+        width: 100vw;
+        height: 80vh;
+        transform: translateY(-12vh);
+    }
+    .bg9{
+        z-index: -4;
+        width: 100vw;
+        height: 50vh;
+        transform: translateY(-14vh);
     }
 
     .happyhacking {
         display: flex;
         justify-content: center;
+
     }
 
     .mushroomrock {

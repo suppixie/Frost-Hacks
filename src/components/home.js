@@ -36,6 +36,8 @@ const Home = () => {
                 <img className="bg5" src={art11} alt="bg" />
                 <img className="bg6" src={art13} alt="bg" />
                 <img className="bg7" src={art14} alt="bg" />
+                <img className="bg8" src={art14} alt="bg" />
+                <img className="bg9" src={art14} alt="bg" />
             </section>
             <Hero />
             <About />

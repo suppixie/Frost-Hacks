@@ -22,7 +22,9 @@
     display: flex;
     /* grid-template-columns: 40% 40%; */
 }
-
+.tracks-carousel{
+    display: none;
+}
 .themes {
     background-image: url(https://i.pinimg.com/originals/be/5e/71/be5e71a29b38a1c15cc266a9a360e5ae.png);
     background-size: cover;
@@ -91,7 +93,7 @@
         justify-content: center;
         /* grid-template-columns: 40% 40%; */
     }
-
+    
     .themes {
         border: 3px solid rgb(35, 34, 53);
         width: 18vw;
@@ -110,26 +112,42 @@
     .crystal {
         height: 8vh;
         position: absolute;
-        transform: translate(-14vw, -6vh);
+        transform: translate(-16vw, -6vh);
     }
-
+    
     .teleporter {
         height: 18vh;
     }
-
-    .track1 {
-        transform: skewX(10deg) translateY(10%);
+    .tracks-full{
+        display: none;
+    }
+    .tracks-carousel{
+        display: block;
+    }
+    .carousel{
+        display: flex;
+        justify-content: space-between;
+    }
+    .carousel .tracks{
+        padding: 0;
+    }
+    .leftarrow img,.rightarrow img{
+        height: 5vh;
+    }
+    .leftarrow,.rightarrow{
+        border: none;
+        outline: none;
+        background-color: transparent;
+    }
+    .tracks-carousel .track1,.tracks-carousel .track3{
+        width: 25vw;
+        transform: skewX(5deg) translateY(10%);
+        margin-right:8vw ;
+    }
+  
+    .tracks-carousel .track2,.tracks-carousel .track4 {
+        width: 25vw;
+        transform: skewX(-5deg) translateY(10%);
     }
 
-    .track2 {
-        transform: skewX(4deg) translateY(-8%);
-    }
-
-    .track3 {
-        transform: skewX(-4deg) translateY(-8%);
-    }
-
-    .track4 {
-        transform: skewX(-10deg) translateY(10%);
-    }
 }
