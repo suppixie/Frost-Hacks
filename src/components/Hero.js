@@ -3,7 +3,7 @@ import React from "react";
 import rocks from '../assets/Snowboy on mountain.gif'
 import Navbar from "./Navbar";
 import '../components/styles/hero.css'
-import discord from '../assets/icons8-discord-100.png';
+// import discord from '../assets/icons8-discord-100.png';
 
 export default function Hero() {
     return <>
