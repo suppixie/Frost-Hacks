@@ -34,6 +34,7 @@
     .navbar{
         align-items: center;
         justify-content: space-between;
+        margin: 1vh 3vw;
     }
     .navbar ul{
         display: none;
@@ -55,9 +56,11 @@
         display: none;
         text-align: right;
         position:absolute;
-        transform: translateX(-6vw);
+        transform: translateX(-8vw);
         background-color: azure;
-        padding: 1vw;
+        padding: 2vh 0;
+        padding-right: 3vw;
+        padding-left: 4vw;
     }
     
 .dropdown.open {
@@ -67,5 +70,8 @@
 .dropdown a{
     text-decoration: none;
     color:rgb(12, 23, 56);
+}
+.logo{
+    height: 8vh;
 }
 }

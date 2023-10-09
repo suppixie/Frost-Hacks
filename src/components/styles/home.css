@@ -6,8 +6,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Proxima Nova";
-    /* font-family:'Trebuchet MS',sans-serif; */
+    font-family:'Trebuchet MS', sans-serif;
     overflow-x: hidden;
 }
 
@@ -23,7 +22,7 @@ main {
     position: absolute;
     background-color: rgb(20, 10, 66);
     overflow: hidden;
-    height: 890vh;
+    height: 900vh;
     width: 100vw;
 }
 
@@ -125,16 +124,24 @@ main {
 }
 
 .register-btn {
-    padding: 2vh 3vw;
-    margin-top: 5vh;
+    padding:3vw;
     color: white;
     border: none;
     border-radius: 10px;
-    background-color: rgb(42, 42, 58);
-    font-size: 1.1rem;
-    margin-right: 2vw;
+    /* background-color: rgb(42, 42, 58); */
+    font-size: 1rem;
+    margin:0  1vw;
     cursor: pointer;
-    border: 1vh outset lightblue;
+    /* border: 1vh outset lightblue; */
+    border:none;
+    background-image: url('../../assets/button1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 2vw;
+    background-color: transparent;
+    transform: scale(1.3);
+
 }
 
 .register-btn a {
@@ -143,27 +150,28 @@ main {
 }
 
 .register-btn:hover {
-    background-color: rgb(42, 42, 81);
-    transform: scale(1.05);
+    transform: scale(1.35);
 
 }
 
 .discord-btn {
-    padding: 2vh 3vw;
-    margin-top: 5vh;
+    padding:2vh 2vw;
     color: rgb(42, 42, 58);
     border: none;
-    border-radius: 10px;
-    background-color: rgb(255, 255, 255);
-    font-size: 1.1rem;
+    margin-top: 2vh;
+    border-radius: 20px;
     cursor: pointer;
-    border: 1vh outset rgb(113, 145, 155);
-
+    /* height: 8vh; */
+    background-color: azure;
+    border: 1vh outset lightblue;
+    font-size: 1.1rem;
+   
 }
 
+
 .discord-btn:hover {
-    background-color: azure;
-    transform: scale(1.05);
+    transform: scale(1.1);
+    filter:drop-shadow(0vh 0.5vh 1vh white)
 
 }
 
@@ -209,19 +217,24 @@ main {
 
 
     .register-btn {
+        margin-top: 1vh;
         padding: 2vh 5vw;
         border-width: 5px;
+        margin-right: 2vw;
+        font-size: 0.8rem;
     }
 
     .discord-btn {
         margin-top: 1vh;
-        padding: 2vh 5.5vw;
+        height: 5vh;
+        padding: 1vh 3vw;
         border-width: 5px;
 
     }
 
     .bg-section {
-        /* height: 570vh; */
+        overflow: hidden;
+        height: 560vh;
         max-height: 610vh;
         background-color: rgb(20, 10, 66);
 
@@ -272,18 +285,21 @@ main {
         width: 100vw;
         height: 65vh;
         transform: translateY(-10vh);
+        background-color: rgb(20, 10, 66);
     }
     .bg8{
         z-index: -4;
         width: 100vw;
         height: 80vh;
         transform: translateY(-12vh);
+        background-color: rgb(20, 10, 66);
     }
     .bg9{
         z-index: -4;
         width: 100vw;
         height: 50vh;
         transform: translateY(-14vh);
+        background-color: rgb(20, 10, 66);
     }
 
     .happyhacking {

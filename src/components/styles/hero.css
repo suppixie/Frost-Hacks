@@ -1,10 +1,10 @@
-.snowboy {
+/* .snowboy {
     position: absolute;
     z-index: 3;
-    height: 12vh;
+    height: 12vh; */
     /* filter: drop-shadow(0 -1vh 3vh rgba(0, 0, 139, 0.586)); */
-    transform: translate(-6vw, 42vh);
-}
+    /* transform: translate(-6vw, 42vh);
+} */
 
 .hero {
     /* width: 100vw; */
@@ -12,7 +12,7 @@
 }
 
 .hero-btns {
-    display: flex;
+    display: block;
 }
 .rock-mountain {
     width: 112vw;
@@ -20,8 +20,8 @@
 }
 
 .rocks {
-    transform: translateY(-10vh);
-    height: 80vh;
+    transform: translateY(-20vh);
+    height: 90vh;
     float: right;
 }
 
@@ -35,7 +35,6 @@
     }
 
     .hero-btns {
-        display: block;
         width: 28vw;
     }
 
@@ -44,8 +43,7 @@
     }
 
     .rocks {
-        transform: translate(100vw, -8vh);
-        height: 40vh;
-        /* float: right; */
+        transform: translate(110vw, -8vh);
+        height: 55vh;
     }
 }

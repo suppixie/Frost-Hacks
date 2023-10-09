@@ -1,13 +1,14 @@
 import React from "react";
-import snowboy from '../assets/Snowboy.gif';
-import rocks from '../assets/rocks5.png'
+// import snowboy from '../assets/Snowboy.gif';
+import rocks from '../assets/Snowboy on mountain.gif'
 import Navbar from "./Navbar";
 import '../components/styles/hero.css'
+import discord from '../assets/icons8-discord-100.png';
 
 export default function Hero() {
     return <>
         <div className="snowboy-animation">
-            <img src={snowboy} className="snowboy" alt="animation" />
+            {/* <img src={snowboy} className="snowboy" alt="animation" /> */}
         </div>
         <section className="hero">
             <Navbar />
