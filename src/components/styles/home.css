@@ -22,7 +22,7 @@ main {
     position: absolute;
     background-color: rgb(20, 10, 66);
     overflow: hidden;
-    height: 900vh;
+    height: 920vh;
     width: 100vw;
 }
 
@@ -71,7 +71,7 @@ main {
 .bg7 {
     z-index: -4;
     width: 100vw;
-    transform: translateY(-65vh);
+    transform: translateY(-55vh);
 }
 
 /* @keyframes turn {
@@ -298,11 +298,11 @@ main {
         z-index: -4;
         width: 100vw;
         height: 50vh;
-        transform: translateY(-14vh);
+        transform: translateY(-20vh);
         background-color: rgb(20, 10, 66);
     }
 
-    .happyhacking {
+    .happyhacking{
         display: flex;
         justify-content: center;
 

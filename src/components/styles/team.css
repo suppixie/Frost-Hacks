@@ -1,15 +1,19 @@
 .team-section {
-    height: 70vh;
+    /* height: 70vh; */
     margin: 2vh 5vw;
 
 
 }
 
 .team-container {
-
+    justify-content: center;
+    display: block;
+    color: white;
+}
+.teamsection{
     display: flex;
     justify-content: center;
-    color: white;
+
 }
 
 .team-section h1 {
@@ -32,7 +36,7 @@
 
 .team-pic {
     border-radius: 15px;
-    height: 25vh;
+    height: 28vh;
 }
 
 .member {
@@ -57,7 +61,7 @@
 
     .team-container {
         display: grid;
-        grid-template-columns: 22vw 22vw 22vw 22vw;
+        grid-template-columns: repeat(4,22vw);
         color: white;
     }
 
@@ -75,7 +79,7 @@
 
     .team-pic {
         border-radius: 15px;
-        height: 11.5vh;
+        height: 11vh;
     }
 
     .member {
@@ -87,9 +91,5 @@
 
     }
 
-    .wand {
-        margin-top: 4vh;
-        width: 60vw;
-        float: right;
-    }
+   
 }

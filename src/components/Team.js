@@ -5,8 +5,8 @@ import harshitha from '../assets/team/harshitha.jpg';
 import nayan from '../assets/team/nayan.jpeg';
 import sneha from '../assets/team/sneha.jpg';
 import shruti from '../assets/team/shruti.jpg';
-import lohitha from '../assets/team/lohitha.jpg'
-import wand from '../assets/wand.png'
+import lohitha from '../assets/team/lohitha.jpg';
+import ujjwal from '../assets/team/ujjwal.jpeg';
 import './styles/team.css'
 
 
@@ -15,6 +15,7 @@ export default function Team() {
         <div>
             <h1>Meet Our Team</h1>
             <div className="team-container">
+                <div className="teamsection">
                 <div>
                     <div className="member">
                         <img src={harshitha} className="team-pic" alt="team" /> <p>Harshitha ⚡</p></div>
@@ -35,6 +36,8 @@ export default function Team() {
                     <div className="member">
                         <img src={nayan} className="team-pic" alt="team" /><p>Nayan ⚔️</p></div>
                 </div>
+                </div>
+                <div className="teamsection">
                 <div>
                     <div className="member">
                         <img src={shruti} className="team-pic" alt="team" /><p>Shruti 👑</p></div>
@@ -43,8 +46,13 @@ export default function Team() {
                     <div className="member">
                         <img src={lohitha} className="team-pic" alt="team" /><p>Lohitha 💣</p></div>
                 </div>
+                <div>
+                    <div className="member">
+                        <img src={ujjwal} className="team-pic" alt="team" /><p>Ujjwal 🏆</p></div>
+                </div>
+                </div>
             </div>
-            <img src={wand} className="wand" alt="prop" />
+            {/* <img src={wand} className="wand" alt="prop" /> */}
         </div>
     </section>;
 }

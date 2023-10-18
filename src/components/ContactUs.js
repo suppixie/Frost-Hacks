@@ -1,5 +1,5 @@
 import React from "react";
-import light2 from '../assets/light1.png'
+import wandgif from '../assets/wand gif.gif'
 import mail from "../assets/mail.png";
 import instagram from "../assets/instagram.png";
 import devpost from "../assets/devpost.png";
@@ -11,7 +11,10 @@ import './styles/contactUs.css'
 export default function ContactUs() {
     return <section className="contact-section" id="contact">
         <div className="contact">
+        <div className="heading">
             <h1>Contact Us</h1>
+            <img src={wandgif} className="wandgif" alt="prop" />
+            </div>
             <div className="socials">
                 <div>
                     <div className="social-icons">
@@ -20,7 +23,7 @@ export default function ContactUs() {
                             /* <img src={iceblock} className="iceblock"/> */
                         }
                     </div>
-                    <a href="mailto:frosthacks2023@gmail.com">frosthacks2023@gmail.com</a>
+                    <a href="mailto:frosthackshyd@gmail.com">frosthackshyd@gmail.com</a>
                 </div>
 
                 <div>
@@ -58,12 +61,9 @@ export default function ContactUs() {
                     <a href="/" target="_blank" rel="noreferrer">MLH Code of Conduct</a>
                 </div>
                 <a href="https://lu.ma/event/evt-DbAIZ0uCNtCTWj3" target="_blank" rel="noreferrer"><button className="register-btn2 ">Register</button></a>
-            <a href="https://discord.gg/QSvZxgwU" target="_blank" rel="noreferrer"><button className="discord-btn2">Discord</button></a>
+            {/* <a href="https://discord.gg/QSvZxgwU" target="_blank" rel="noreferrer"><button className="discord-btn2">Discord</button></a> */}
             </div>
         </div>
-        <div className="footer-btns">
-            <img src={light2} className="light2" alt="prop" />
-           
-        </div>
+       
     </section>;
 }

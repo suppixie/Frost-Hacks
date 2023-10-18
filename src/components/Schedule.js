@@ -16,7 +16,7 @@ export default function Schedule() {
                         <p>Check-in</p> <p>9:30 AM</p>
                         <p>Opening Ceremony</p> <p>10:30 AM</p>
                         <p>Hackathon begins</p> <p>11:00 AM</p>
-                        <p>Lunch</p> <p>3:00 PM</p>
+                        <p>Lunch</p> <p>1:30 PM</p>
                         <p>Workshop 1</p> <p>5:00 PM</p>
                         <p>Mini event</p> <p>7:00 PM</p>
                         <p>Dinner</p> <p>9:00 PM</p>
@@ -32,8 +32,8 @@ export default function Schedule() {
                     <div className="timeline">
                         <p>Breakfast</p> <p>8:00 AM</p>
                         <p>Workshop 2 Begins</p> <p>11:00 AM</p>
-                        <p>Mini event</p> <p>2:00 PM</p>
-                        <p>Lunch</p> <p>3:00 PM</p>
+                        <p>Lunch</p> <p>1:30 PM</p>
+                        <p>Mini event</p> <p>2:30 PM</p>
                         <p>Submissions Due</p> <p>5:30 PM</p>
                         <p>Hackathon ends</p> <p>6:00 PM</p>
                         <p>Mini event</p> <p>6:30 PM</p>

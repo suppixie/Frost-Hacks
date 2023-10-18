@@ -1,7 +1,7 @@
 .contact-section {
-    margin: 10vh 3vw;
+    margin: 14vh 3vw;
     display: grid;
-    grid-template-columns: 75vw 10vw
+    grid-template-columns: 76vw 10vw
 }
 
 .contact {
@@ -12,7 +12,7 @@
 
 .socials {
     display: grid;
-    grid-template-columns: 35vw 35vw;
+    grid-template-columns: 38vw 38vw;
     row-gap: 3vw;
     text-align: left;
 }
@@ -65,19 +65,20 @@
 /* .footer-btn a{
     text-decoration: none;
 } */
-.light2 {
-    height: 40vh;
-    transform: translate(1.5vw, -10vh);
-    filter: drop-shadow(0 4vh 4vh rgb(255, 230, 0));
-    animation: swing 2s infinite;
-}
+.wandgif {
+    height: 70vh;
+    transform: translate(-8vw, -30vh);
+    position: absolute;
+} 
+   /* filter: drop-shadow(0 4vh 4vh rgb(255, 230, 0)); */
+
 
 .icons {
     height: 8vh;
 }
 
 .register-btn2 {
-    padding:2vh 8vw;
+    padding:2vh 10vw;
     color: white;
     border: none;
     border-radius: 10px;
@@ -128,9 +129,9 @@
 
 @media (max-width:767px) {
     .contact-section {
-        margin: 12vh 6vw;
-        display: grid;
-        grid-template-columns: 75vw
+        margin: 8vh 6vw;
+        display: block;
+        /* grid-template-columns: 75vw */
     }
 
     .contact {
@@ -181,9 +182,9 @@
         margin-top: 2vw;
     }
 
-    .light2 {
-        height: 18vh;
-        transform: translate(75vw, -50vh);
+    .wandgif {
+        height: 21vh;
+        transform: translate(-36vw, -12vh);
         position: absolute;
     }
 
@@ -196,7 +197,7 @@
         justify-content: space-between;
     }
     .register-btn2 {
-        padding:1vh 4vw;
+        padding:1vh 12vw;
         margin: 0;
         font-size: 0.8rem;
         border: 5px outset rgb(113, 145, 155);
