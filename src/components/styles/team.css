@@ -10,7 +10,7 @@
     display: block;
     color: white;
 }
-.teamsection{
+.teamsubsection{
     display: flex;
     justify-content: center;
 
@@ -47,11 +47,6 @@
 
 }
 
-.wand {
-    margin-top: 4vh;
-    width: 60vw;
-    float: right;
-}
 
 @media (max-width:767px) {
 .team-section {
@@ -59,11 +54,6 @@
         margin: 2vh 1vw;
     }
 
-    .team-container {
-        display: grid;
-        grid-template-columns: repeat(4,22vw);
-        color: white;
-    }
 
     .team-section h1 {
         font-size: 1rem;

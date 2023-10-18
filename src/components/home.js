@@ -26,8 +26,11 @@ import art14 from '../assets/art14.png';
 import Hero from "./Hero";
 
 const Home = () => {
+    
     return (
+        
         <main>
+           
             <section className="bg-section">
                 <img className="bg" src={icebg} alt="ice" />
                 <img className="bg2" src={art5} alt="bg" />
@@ -50,9 +53,10 @@ const Home = () => {
             <ContactUs />
             <div className="happyhacking">
                 <h1>HAPPY HACKING!</h1>
+                <p>Made with ♡</p>
             </div>
         </main>
-    )
+    );
 
 }
 export default Home;

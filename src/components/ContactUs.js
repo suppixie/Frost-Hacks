@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import wandgif from '../assets/wand gif.gif'
 import mail from "../assets/mail.png";
 import instagram from "../assets/instagram.png";
@@ -44,7 +45,7 @@ export default function ContactUs() {
                     <div className="social-icons">
                         <img src={twitter} className="icons twitter" alt="icon" />
                     </div>
-                    <a href="https://x.com/frosthacks_iare?s=20" target="_blank" rel="noreferrer">Follow Us (X)</a>
+                    <a href="https://x.com/frosthacks_iare?s=20" target="_blank" rel="noreferrer">Follow Us (Twitter)</a>
                 </div>
 
                 <div>
@@ -60,7 +61,8 @@ export default function ContactUs() {
                     </div>
                     <a href="/" target="_blank" rel="noreferrer">MLH Code of Conduct</a>
                 </div>
-                <a href="https://lu.ma/event/evt-DbAIZ0uCNtCTWj3" target="_blank" rel="noreferrer"><button className="register-btn2 ">Register</button></a>
+                <Link to='/Registration'><button className="register-btn2 ">Register</button></Link>
+                {/* <a href="https://lu.ma/event/evt-DbAIZ0uCNtCTWj3" target="_blank" rel="noreferrer"><button className="register-btn2 ">Register</button></a> */}
             {/* <a href="https://discord.gg/QSvZxgwU" target="_blank" rel="noreferrer"><button className="discord-btn2">Discord</button></a> */}
             </div>
         </div>

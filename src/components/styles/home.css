@@ -22,7 +22,7 @@ main {
     position: absolute;
     background-color: rgb(20, 10, 66);
     overflow: hidden;
-    height: 920vh;
+    height: 910vh;
     width: 100vw;
 }
 
@@ -73,6 +73,12 @@ main {
     width: 100vw;
     transform: translateY(-55vh);
 }
+.bg8 {
+    z-index: -4;
+    width: 100vw;
+    transform: translateY(-60vh);
+}
+
 
 /* @keyframes turn {
     0%{
@@ -181,7 +187,8 @@ main {
 }
 
 .happyhacking {
-    display: flex;
+    color: white;
+    display: block;
     justify-content: center;
 }
 
@@ -195,6 +202,7 @@ main {
     font-size: 4rem;
     color: aliceblue;
     font-family: "Marcellus SC";
+    filter: drop-shadow(0 4vh 4vh rgb(156, 227, 255));
 }
 
 @media (max-width:767px) {
@@ -294,16 +302,16 @@ main {
         transform: translateY(-12vh);
         background-color: rgb(20, 10, 66);
     }
-    .bg9{
+    /* .bg9{
         z-index: -4;
         width: 100vw;
         height: 50vh;
         transform: translateY(-20vh);
         background-color: rgb(20, 10, 66);
-    }
+    } */
 
     .happyhacking{
-        display: flex;
+        display: block;
         justify-content: center;
 
     }

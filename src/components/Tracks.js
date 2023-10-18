@@ -49,6 +49,8 @@ export default function Tracks() {
     }
   };
 
+
+
     return <section className="tracks-section" id="tracks">
         <h2>Tracks</h2>
         <div className="tracks tracks-carousel">

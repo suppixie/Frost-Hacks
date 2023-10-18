@@ -1,9 +1,28 @@
-import React from "react";
+import React,{useEffect} from "react";
 import tree from '../assets/trees1.png';
 import './styles/faq.css'
+import $ from 'jquery';
 
 
 export default function Faq() {
+    useEffect(() => {
+        $('.question-label').on('click', function() {
+            var answer = $(this).next('.answer');
+            var checkbox = $(this).prev('input[type="checkbox"]');
+            
+            if (answer.is(':visible')) {
+                answer.slideUp(300, function() {
+                    checkbox.prop('checked', false);
+                });
+            } else {
+                $('.answer:visible').slideUp(300);
+                $('.question-checkbox:checked').prop('checked', false);
+                answer.slideDown(300, function() {
+                    checkbox.prop('checked', true);
+                });
+            }
+        });
+    }, []);
 
     return <section className="faq-section">
         <div className="tree-img">
@@ -11,16 +30,6 @@ export default function Faq() {
         </div>
         <div className="question-container">
             <h1 id="faq">Faq</h1>
-            {/* <div className="questions">
-                <input hidden type="checkbox" id="question1" class="question-checkbox" />
-                <label for="question1" className="question-label">
-                    <h4>What is Frost Hacks?</h4>
-                    <span>&#9660;</span>
-                </label>
-                <div className="answer">
-                    <p>FROST HACKS is a thrilling 30-hour hackathon hosted at the IARE college that invites students with a passion for coding, regardless of their skill level, to unleash their creativity and enhance their coding abilities.</p>
-                </div>
-            </div> */}
 
             <div className="questions">
                 <input hidden type="checkbox" id="question2" class="question-checkbox" />
@@ -47,11 +56,11 @@ export default function Faq() {
             <div className="questions">
                 <input hidden type="checkbox" id="question4" class="question-checkbox" />
                 <label for="question4" className="question-label">
-                    <h4>Will food be provided?</h4>
+                    <h4>Will food & stay be provided?</h4>
                     <span>&#9660;</span>
                 </label>
                 <div className="answer">
-                    <p>We've got lots of food and snacks for everyone, stay hacky and hydrated</p>
+                    <p>We've got lots of food and snacks for everyone, stay hacky and hydrated in our cozy & free stay. </p>
                 </div>
             </div>
 
@@ -81,11 +90,22 @@ export default function Faq() {
             <div className="questions">
                 <input hidden type="checkbox" id="question7" class="question-checkbox" />
                 <label for="question7" className="question-label">
+                    <h4>what are the team requirements?</h4>
+                    <span>&#9660;</span>
+                </label>
+                <div className="answer">
+                    <p>Participate Individually or in a team of upto 4 people. Your team members can be from other colleges too. 
+                        <br/>If you are Looking for a team, build one in the team-building channel on discord.</p>
+                </div></div>
+
+                <div className="questions">
+                <input hidden type="checkbox" id="question8" class="question-checkbox" />
+                <label for="question8" className="question-label">
                     <h4>I have more questions</h4>
                     <span>&#9660;</span>
                 </label>
                 <div className="answer">
-                    <p>You can mail us at frosthacks2023@gmail.com or reach out on instagram @frosthacks.iare</p>
+                    <p>You can mail us at frosthackshyd@gmail.com or reach out on instagram @frosthacks.iare</p>
                 </div></div>
         </div>
     </section>;

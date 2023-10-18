@@ -1,0 +1,26 @@
+.filler-section{
+    overflow: hidden;
+    top: 0;
+    margin: 0;
+}.filler{
+    height: 100vh;
+    color: rgb(26, 10, 81);
+    background-image: url('../../assets/art10.png');
+
+}
+.filler div{
+    padding-top: 20vh;
+}
+.snowboy{
+    padding: 0;
+    height: 10vh;
+}
+h1{
+    margin: 0;
+    font-size: xx-large;
+}
+h2{
+    margin: 0;
+    font-size: x-large;
+}
+

@@ -15,7 +15,7 @@ export default function Team() {
         <div>
             <h1>Meet Our Team</h1>
             <div className="team-container">
-                <div className="teamsection">
+                <div className="teamsubsection">
                 <div>
                     <div className="member">
                         <img src={harshitha} className="team-pic" alt="team" /> <p>Harshitha ⚡</p></div>
@@ -32,12 +32,13 @@ export default function Team() {
                     <div className="member">
                         <img src={sneha} className="team-pic" alt="team" /><p>Sneha 🌞</p></div>
                 </div>
+                </div>
+                <div className="teamsubsection">
                 <div>
                     <div className="member">
                         <img src={nayan} className="team-pic" alt="team" /><p>Nayan ⚔️</p></div>
                 </div>
-                </div>
-                <div className="teamsection">
+
                 <div>
                     <div className="member">
                         <img src={shruti} className="team-pic" alt="team" /><p>Shruti 👑</p></div>
