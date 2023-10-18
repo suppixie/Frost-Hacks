@@ -11,15 +11,15 @@
 .filler div{
     padding-top: 20vh;
 }
-.snowboy{
+.filler .snowboy{
     padding: 0;
     height: 10vh;
 }
-h1{
+.filler h1{
     margin: 0;
     font-size: xx-large;
 }
-h2{
+.filler h2{
     margin: 0;
     font-size: x-large;
 }
