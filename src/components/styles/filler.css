@@ -11,10 +11,7 @@
 .filler div{
     padding-top: 20vh;
 }
-.filler .snowboy{
-    padding: 0;
-    height: 10vh;
-}
+
 .filler h1{
     margin: 0;
     font-size: xx-large;
@@ -22,5 +19,21 @@
 .filler h2{
     margin: 0;
     font-size: x-large;
+}
+
+@media (max-width:900px) {
+
+   .filler div{
+    padding-top: 30vh;
+} 
+.filler a{
+    color: white;
+}
+.filler h1{
+    font-size: x-large;
+}
+.filler h2{
+    font-size: large;
+}
 }
 
