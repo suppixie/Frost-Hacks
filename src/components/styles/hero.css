@@ -17,7 +17,7 @@
     float: right;
 }
 
-@media (max-width:767px) {
+@media (max-width:900px) {
     .snowboy {
         position: absolute;
         z-index: 3;

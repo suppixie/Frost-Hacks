@@ -127,7 +127,7 @@
 
 }
 
-@media (max-width:767px) {
+@media (max-width:900px) {
     .contact-section {
         margin: 8vh 6vw;
         display: block;

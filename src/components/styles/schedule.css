@@ -70,7 +70,7 @@
     letter-spacing: 0.8px;
 }
 
-@media (max-width:767px) {
+@media (max-width:900px) {
     .schedule-section h1 {
         font-size: 1rem;
         border: 3px outset rgb(176, 171, 153);

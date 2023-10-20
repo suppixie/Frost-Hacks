@@ -78,7 +78,7 @@
     margin-right: 0;
 }
 
-@media (max-width:767px) {
+@media (max-width:900px) {
     .tracks-section {
         margin: 0 0vw;
     }
