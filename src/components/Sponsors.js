@@ -6,7 +6,7 @@ export default function Sponsors() {
     return <section className="sponsor-section">
         <div className="sponsors">
             <h1>Sponsors</h1>
-            <img  className="mlh-sponsor" src={mlhlogo}/>
+            <img  className="mlh-sponsor" src={mlhlogo} alt="mlh logo"/>
         </div>
     </section>;
 }
