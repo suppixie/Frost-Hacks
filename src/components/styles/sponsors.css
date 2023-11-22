@@ -13,10 +13,12 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-
 }
 
-@media (max-width:900px) {
+.mlh-sponsor{
+    height: 15vh;
+}
+@media (max-width:767px) {
 
     .sponsors {
         margin-top: 5vh;

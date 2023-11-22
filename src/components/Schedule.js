@@ -33,11 +33,10 @@ export default function Schedule() {
                         <p>Breakfast</p> <p>8:00 AM</p>
                         <p>Workshop 2 Begins</p> <p>11:00 AM</p>
                         <p>Lunch</p> <p>1:30 PM</p>
-                        <p>Mini event</p> <p>2:30 PM</p>
-                        <p>Submissions Due</p> <p>5:30 PM</p>
-                        <p>Hackathon ends</p> <p>6:00 PM</p>
-                        <p>Mini event</p> <p>6:30 PM</p>
-                        <p>Closing<br />Ceremony</p> <p>7:00 PM</p>
+                        <p>Submissions Due</p> <p>4:30 PM</p>
+                        <p>Hackathon ends</p> <p>5:00 PM</p>
+                        <p>Mini event</p> <p>5:30 PM</p>
+                        <p>Closing<br />Ceremony</p> <p>6:30 PM</p>
                     </div>
                 </div>
                 <img src={iceblock3} className="iceblock3" alt="prop" />

@@ -14,7 +14,7 @@ export default function Hero() {
             <div className="event-details">
                 <h1>FROST HACKS</h1>
                 <h4>Get ready to embark on a Winter Innovation Odyssey!</h4>
-                <h3>Jan 6-7 2024 | IARE, Hyderabad</h3>
+                <h3>Jan 20-21 2024 | IARE, Hyderabad</h3>
                 <div className="hero-btns">
                     {/* <a href="https://lu.ma/event/evt-DbAIZ0uCNtCTWj3" target="_blank" rel="noreferrer"><button className="register-btn">Register</button></a> */}
                     <Link to='/Registration'>

@@ -65,9 +65,14 @@
 /* .footer-btn a{
     text-decoration: none;
 } */
+.wand{
+    overflow-x: hidden;
+    z-index: 1;
+}
 .wandgif {
-    height: 70vh;
-    transform: translate(-8vw, -30vh);
+    
+    height: 30vw;
+    transform: translate(0vw, -30vh);
     position: absolute;
 } 
    /* filter: drop-shadow(0 4vh 4vh rgb(255, 230, 0)); */

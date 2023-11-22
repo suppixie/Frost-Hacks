@@ -23,7 +23,7 @@
     border: 0;
 }
 
-@media (max-width:900px) {
+@media (max-width:767px) {
     .countdown-section {
         margin: 0 4vw;
         margin-bottom: 5vh;

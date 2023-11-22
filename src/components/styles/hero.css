@@ -8,6 +8,7 @@
 }
 .rock-mountain {
     width: 112vw;
+    z-index: 3;
 
 }
 
@@ -17,7 +18,7 @@
     float: right;
 }
 
-@media (max-width:900px) {
+@media (max-width:767px) {
     .snowboy {
         position: absolute;
         z-index: 3;

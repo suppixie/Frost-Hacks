@@ -33,6 +33,7 @@
     margin: 0;
     color: rgb(35, 34, 53);
     border: none;
+    line-height: 25px;
 }
 
 .info h1 {
@@ -68,7 +69,18 @@
     }
 }
 
-@media (max-width:900px) {
+@media (max-width:1000px) {
+    .crystal-on-rock {
+        height: 20vh;
+    }
+
+    .rock-holder {
+        height: 40vh;
+        width: 30vw;
+    }
+    
+}
+@media (max-width:767px) {
     .about-section {
         margin-top: 0;
     }

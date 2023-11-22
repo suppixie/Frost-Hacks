@@ -14,7 +14,8 @@ export default function ContactUs() {
         <div className="contact">
         <div className="heading">
             <h1>Contact Us</h1>
-            <img src={wandgif} className="wandgif" alt="prop" />
+            <div className="wand">
+            <img src={wandgif} className="wandgif" alt="prop" /></div>
             </div>
             <div className="socials">
                 <div>
@@ -28,10 +29,10 @@ export default function ContactUs() {
                 </div>
 
                 <div>
-                    <div className="social-icons">
-                        <img src={instagram} className="icons" alt="icon" />
+                <div className="social-icons">
+                        <img src={instagram} className="icons instagram" alt="icon" />
                     </div>
-                    <a href="https://instagram.com/frosthacks.iare?igshid=OGQ5ZDc2ODk2ZA==" target="_blank" rel="noreferrer">@frosthacks.iare</a>
+                    <a href="https://www.instagram.com/frosthacks.iare/" target="_blank" rel="noreferrer">@frosthacks.iare</a>
                 </div>
 
                 <div>
@@ -45,7 +46,7 @@ export default function ContactUs() {
                     <div className="social-icons">
                         <img src={twitter} className="icons twitter" alt="icon" />
                     </div>
-                    <a href="https://x.com/frosthacks_iare?s=20" target="_blank" rel="noreferrer">Follow Us (Twitter)</a>
+                    <a href="https://twitter.com/frosthackshyd" target="_blank" rel="noreferrer">Follow Us (Twitter)</a>
                 </div>
 
                 <div>
@@ -59,7 +60,7 @@ export default function ContactUs() {
                     <div className="social-icons">
                         <img src={coc} className="icons coc" alt="icon" />
                     </div>
-                    <a href="/" target="_blank" rel="noreferrer">MLH Code of Conduct</a>
+                    <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank" rel="noreferrer">MLH Code of Conduct</a>
                 </div>
                 <Link to='/Registration'><button className="register-btn2 ">Register</button></Link>
                 {/* <a href="https://lu.ma/event/evt-DbAIZ0uCNtCTWj3" target="_blank" rel="noreferrer"><button className="register-btn2 ">Register</button></a> */}
