@@ -101,7 +101,7 @@ export default function Faq() {
                         <span>{openIndex === 8 ? '▲' : '▼'}</span>
                     </label>
                     <div className={`answer ${openIndex === 8 ? 'visible' : ''}`}>
-                        <p>You can email us at frosthackshyd@gmail.com or reach out on Instagram @frosthacks.iare.</p>
+                        <p>You can email us at frosthackshyd@gmail.com or reach out on Instagram @frosthacks.hyd</p>
                     </div>
                 </div>
 
