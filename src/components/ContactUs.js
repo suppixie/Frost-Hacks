@@ -53,7 +53,7 @@ export default function ContactUs() {
                     <div className="social-icons">
                         <img src={sponsor} className="icons sponsor" alt="icon" />
                     </div>
-                    <Link to='/Sponsors' target="_blank">Sponsor Us</Link>
+                    <Link to='/Sponsors'>Sponsor Us</Link>
                 </div>
 
                 <div>
