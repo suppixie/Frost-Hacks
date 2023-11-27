@@ -13,9 +13,9 @@
 }
 
 .rocks {
-    transform: translateY(-20vh);
+    transform: translate(40vw, -20vh);
     height: 90vh;
-    float: right;
+    position: absolute;
 }
 
 @media (max-width:767px) {

@@ -67,15 +67,15 @@
 } */
 .wand{
     overflow-x: hidden;
-    z-index: 1;
+    z-index: 2; 
 }
 .wandgif {
     
     height: 30vw;
     transform: translate(0vw, -30vh);
     position: absolute;
+    z-index: 1;
 } 
-   /* filter: drop-shadow(0 4vh 4vh rgb(255, 230, 0)); */
 
 
 .icons {
@@ -130,6 +130,24 @@
     background-color: azure;
     transform: scale(1.05);
 
+}
+
+
+.contact-section,
+.contact,
+.socials,
+.socials div,
+.socials div a,
+.coc img,
+.devpost img,
+.contact h1,
+.icons,
+.register-btn2,
+.register-btn2 a,
+.discord-btn2,
+.footer-btns {
+    position: relative;
+    z-index: 2;
 }
 
 @media (max-width:900px) {

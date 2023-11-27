@@ -15,8 +15,20 @@
     background-position: center;
 }
 
-.mlh-sponsor{
+.sponsor-logo{
     height: 15vh;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 2vh;
+    border-radius: 15px;
+    margin-right: 1vw;
+}
+.sponsor-list{
+    display: flex;
+    justify-content: center;
+}
+.advantagelogo{
+    background-color:  rgba(255, 255, 255, 0.9);
+    color: black;
 }
 @media (max-width:767px) {
 

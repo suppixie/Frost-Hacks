@@ -32,14 +32,14 @@ export default function ContactUs() {
                 <div className="social-icons">
                         <img src={instagram} className="icons instagram" alt="icon" />
                     </div>
-                    <a href="https://www.instagram.com/frosthacks.iare/" target="_blank" rel="noreferrer">@frosthacks.iare</a>
+                    <a href="https://www.instagram.com/frosthacks.hyd/" target="_blank" rel="noreferrer">@frosthacks.hyd</a>
                 </div>
 
                 <div>
                     <div className="social-icons">
                         <img src={devpost} className="icons devpost" alt="icon" />
                     </div>
-                    <a href="/" target="_blank" rel="noreferrer"> Share on Devpost</a>
+                    <a href="https://frosthacks.devpost.com/" target="_blank" rel="noreferrer"> Share on Devpost</a>
                 </div>
 
                 <div>
@@ -53,7 +53,7 @@ export default function ContactUs() {
                     <div className="social-icons">
                         <img src={sponsor} className="icons sponsor" alt="icon" />
                     </div>
-                    <a href="/" target="_blank" rel="noreferrer">Sponsor Us</a>
+                    <a href="/Sponsors" target="_blank" rel="noreferrer">Sponsor Us</a>
                 </div>
 
                 <div>

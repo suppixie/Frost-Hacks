@@ -5,7 +5,6 @@ import harshitha from '../assets/team/harshitha.jpg';
 import nayan from '../assets/team/nayan.jpeg';
 import sneha from '../assets/team/sneha.jpg';
 import shruti from '../assets/team/shruti.jpg';
-import lohitha from '../assets/team/lohitha.jpg';
 import ujjwal from '../assets/team/ujjwal.jpeg';
 import './styles/team.css'
 
@@ -42,10 +41,6 @@ export default function Team() {
                 <div>
                     <div className="member">
                         <img src={shruti} className="team-pic" alt="team" /><p>Shruti 👑</p></div>
-                </div>
-                <div>
-                    <div className="member">
-                        <img src={lohitha} className="team-pic" alt="team" /><p>Lohitha 💣</p></div>
                 </div>
                 <div>
                     <div className="member">

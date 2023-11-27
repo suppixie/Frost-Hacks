@@ -1,0 +1,115 @@
+.sponsorpage-section{
+    background-image: url(../../assets/art12.png);
+    padding: 2vh 2vw ;
+
+}
+.sponsor-nav{
+    align-items: center;
+    display: flex;
+    text-align: left;
+    color: rgb(4, 4, 108);
+}
+.fhlogo{
+    height: 8vh;
+    padding-right: 0.5vw;
+    padding-left: 2vw;
+}
+.sponsors-div{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+   
+
+.sponsor-logos{
+    height: 10vh;
+    background-color: rgba(255, 255, 255, 0.871);
+    padding: 3vh;
+    border-radius: 20px;
+    margin-right: 2vw;}
+
+.advantagelogo{
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    margin: 0;
+    margin-right: 2vw;
+
+    margin-block: 0;
+}
+.advantagelogo p{
+    margin: 0;
+    padding-top: 2vh;
+
+}
+.sponsor-content{
+    color: white;
+    font-size: x-large;
+    padding: 0 10vw;
+    margin-bottom: 5vh;
+}
+
+.sponsor-heading span{
+    font-size: xx-large;
+}
+.sponsor-heading img{
+    height: 11vh;
+}
+.mlh-trust-badge{
+    display:block;
+    max-width:100px;
+    /* min-width:60px; */
+    position:absolute;
+    right:100px;
+    top:0;
+    width:10%;
+    z-index:10000;
+}
+.sponsor-heading h1{
+    margin: 0;
+    font-size: xxx-large;
+    font-family:'grim-reaper';
+    color: rgb(6, 6, 88);
+
+}
+.sponsor-button{
+   border: 3px solid white;
+   border-radius: 20px;
+   background-color: rgb(70, 70, 182);
+   padding: 3vh;
+   margin-top: 1vh;
+   font-size: larger;
+   cursor: pointer;
+}
+.sponsor-button:hover{
+    transform: scale(1.1);
+}
+.sponsor-button a{
+    text-decoration: none;
+    color: white;
+}
+.packages{
+    background-color: rgba(255, 255, 255, 0.906);
+    border-radius: 20px;
+    padding: 3vh 0;
+    padding-top: 0;
+    margin: 8vh 10vw;
+    margin-bottom: 5vh;
+}
+.packages h1{
+    background-color: rgb(129, 218, 253);
+    margin: 0;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: 2vh;
+}
+.package-details{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 20vw 12vw 12vw 12vw 12vw;
+    align-items: center;
+}
+.end-line{
+    color: white;
+    margin-bottom: 5vh;
+}
