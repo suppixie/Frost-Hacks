@@ -22,9 +22,6 @@
 }
 
 @media (max-width:767px) {
-    .hero {
-        height: 70vh;
-    }
     .snowboy {
         position: absolute;
         z-index: 3;
@@ -45,10 +42,10 @@
 
     .rocks {
         z-index: 1;
-        width: 41vh;
+        width: 100vh;
         position: absolute;
-        top: 480px;
+        top: 420px;
         left: -120px;
-        height: auto;
+        height: 55vh;
     }
 }
