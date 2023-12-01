@@ -4,6 +4,7 @@
 }
 
 .hero-btns {
+    position: relative;
     display: block;
 }
 .rock-mountain {
@@ -15,7 +16,9 @@
 .rocks {
     transform: translate(40vw, -20vh);
     height: 90vh;
-    position: absolute;
+
+    display: block;
+    background-size: cover;
 }
 
 @media (max-width:767px) {
@@ -28,15 +31,21 @@
     }
 
     .hero-btns {
+        z-index: 3 !important;
         width: 28vw;
     }
 
     .rock-mountain {
+        z-index: 1 !important;
         width: 100%;
     }
 
     .rocks {
-        transform: translate(110vw, -8vh);
+        z-index: 1;
+        width: 100vh;
+        position: absolute;
+        top: 420px;
+        left: -120px;
         height: 55vh;
     }
 }
