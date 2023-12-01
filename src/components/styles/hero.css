@@ -8,9 +8,9 @@
     display: block;
 }
 .rock-mountain {
-    width: 112vw;
     z-index: 3;
-
+    width: 100vh !important;
+    height: 100vh !important;
 }
 
 .rocks {
