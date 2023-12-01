@@ -1,84 +1,82 @@
 @import url('https://fonts.googleapis.com/css2?family=Mooli&family=Cinzel:wght@700&family=Marcellus+SC&family=Poppins:wght@300;400&display=swap');
 
 body {
-    scroll-behavior: smooth;
-    top: 0;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family:'Trebuchet MS', sans-serif;
-    overflow-x: hidden;
+  scroll-behavior: smooth;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', sans-serif;
+  overflow-x: hidden;
 }
 
 main {
-    overflow-x: hidden;
-    width: 100vw;
+  overflow-x: hidden;
+  width: 100vw;
 }
 
 .bg-section {
-    top: 0;
-    margin: 0;
-    z-index: -2;
-    position: absolute;
-    background-color: rgb(20, 10, 66);
-    overflow: hidden;
-    height: 920vh;
-    width: 100vw;
+  top: 0;
+  margin: 0;
+  z-index: -2;
+  position: absolute;
+  background-color: rgb(20, 10, 66);
+  overflow: hidden;
+  height: 920vh;
+  width: 100vw;
 }
 
 .bg {
-    height: 120vh;
-    width: 100vw;
-    background-size: cover;
-    z-index: -2;
+  height: 120vh;
+  width: 100vw;
+  background-size: cover;
+  z-index: -2;
 }
 
 /* .stone{
     height: 70vh;
     /* transform: translate(0,-120vh); */
 .bg2 {
-    z-index: -3;
-    transform: translateY(-4vh);
-    width: 100vw;
-    background-size: cover;
+  z-index: -3;
+  transform: translateY(-4vh);
+  width: 100vw;
+  background-size: cover;
 }
 
 .bg3 {
-    z-index: -3;
-    width: 100vw;
-    transform: translateY(-12vh);
-
+  z-index: -3;
+  width: 100vw;
+  transform: translateY(-12vh);
 }
 
 .bg4 {
-    z-index: -3;
-    width: 100vw;
-    transform: translateY(-20vh);
+  z-index: -3;
+  width: 100vw;
+  transform: translateY(-20vh);
 }
 
 .bg5 {
-    z-index: -4;
-    width: 100vw;
-    transform: translateY(-21vh);
+  z-index: -4;
+  width: 100vw;
+  transform: translateY(-21vh);
 }
 
 .bg6 {
-    z-index: -4;
-    width: 100vw;
-    transform: translateY(-40vh);
+  z-index: -4;
+  width: 100vw;
+  transform: translateY(-40vh);
 }
 
 .bg7 {
-    z-index: -4;
-    width: 100vw;
-    transform: translateY(-55vh);
+  z-index: -4;
+  width: 100vw;
+  transform: translateY(-55vh);
 }
 .bg8 {
-    z-index: -4;
-    width: 100vw;
-    transform: translateY(-60vh);
+  z-index: -4;
+  width: 100vw;
+  transform: translateY(-60vh);
 }
-
 
 /* @keyframes turn {
     0%{
@@ -94,216 +92,204 @@ main {
 } */
 
 .event-details {
-    color: white;
-    text-align: left;
-    padding-left: 3vw;
-
+  color: white;
+  text-align: left;
+  padding-left: 3vw;
 }
 
 .event-details h1 {
-    color: rgb(35, 34, 53);
-    margin: 0;
-    font-size: 6.5rem;
-    text-align: left;
-    /* font-family:"cinzel"; */
-    font-family: "grim-reaper";
-    /* font-family:" breathe-fire"; */
-    /* font-family:"death-star"; */
-    /* font-family:" dragon-hunter"; */
-    font-weight: bold;
-
+  color: rgb(35, 34, 53);
+  margin: 0;
+  font-size: 6.5rem;
+  text-align: left;
+  /* font-family:"cinzel"; */
+  font-family: 'grim-reaper';
+  /* font-family:" breathe-fire"; */
+  /* font-family:"death-star"; */
+  /* font-family:" dragon-hunter"; */
+  font-weight: bold;
 }
 
 .event-details h3 {
-    margin: 0;
-    text-align: left;
-    font-size: 1.8rem;
-    font-family: 'Trebuchet MS', sans-serif;
+  margin: 0;
+  text-align: left;
+  font-size: 1.8rem;
+  font-family: 'Trebuchet MS', sans-serif;
 }
 
 .event-details h4 {
-    color: rgb(20, 10, 66);
-    font-size: 1.7rem;
-    font-family: 'Trebuchet MS', sans-serif;
-    margin: 2vh 0;
-    margin-top: 0;
+  color: rgb(20, 10, 66);
+  font-size: 1.7rem;
+  font-family: 'Trebuchet MS', sans-serif;
+  margin: 2vh 0;
+  margin-top: 0;
 }
 
 .register-btn {
-    padding:3vw;
-    color: white;
-    border: none;
-    border-radius: 10px;
-    /* background-color: rgb(42, 42, 58); */
-    font-size: 1rem;
-    margin:0  1vw;
-    cursor: pointer;
-    /* border: 1vh outset lightblue; */
-    border:none;
-    background-image: url('../../assets/button1.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    padding-left: 2vw;
-    background-color: transparent;
-    transform: scale(1.3);
-    z-index: 10;
-
+  padding: 3vw;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  /* background-color: rgb(42, 42, 58); */
+  font-size: 1rem;
+  margin: 0 1vw;
+  cursor: pointer;
+  /* border: 1vh outset lightblue; */
+  border: none;
+  background-image: url('../../assets/button1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-left: 2vw;
+  background-color: transparent;
+  transform: scale(1.3);
+  z-index: 10;
 }
 
 .register-btn a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 .register-btn:hover {
-    transform: scale(1.35);
-
+  transform: scale(1.35);
 }
 
 .discord-btn {
-    padding:2vh 2vw;
-    color: rgb(42, 42, 58);
-    border: none;
-    margin-top: 2vh;
-    border-radius: 20px;
-    cursor: pointer;
-    /* height: 8vh; */
-    background-color: azure;
-    border: 1vh outset lightblue;
-    font-size: 1.1rem;
-   
+  padding: 2vh 2vw;
+  color: rgb(42, 42, 58);
+  border: none;
+  margin-top: 2vh;
+  border-radius: 20px;
+  cursor: pointer;
+  /* height: 8vh; */
+  background-color: azure;
+  border: 1vh outset lightblue;
+  font-size: 1.1rem;
 }
 
-
 .discord-btn:hover {
-    transform: scale(1.1);
-    filter:drop-shadow(0vh 0.5vh 1vh white)
-
+  transform: scale(1.1);
+  filter: drop-shadow(0vh 0.5vh 1vh white);
 }
 
 .light {
-    height: 80vh;
-    margin-right: 1vw;
+  height: 80vh;
+  margin-right: 1vw;
 }
 
 .happyhacking {
-    color: white;
-    display: block;
-    justify-content: center;
+  color: white;
+  display: block;
+  justify-content: center;
 }
 
 .mushroomrock {
-    height: 30vh;
+  height: 30vh;
 }
 
 .happyhacking h1 {
-    padding: 0;
-    margin: 0;
-    font-size: 4rem;
-    color: aliceblue;
-    font-family: "Marcellus SC";
-    filter: drop-shadow(0 4vh 4vh rgb(156, 227, 255));
+  padding: 0;
+  margin: 0;
+  font-size: 4rem;
+  color: aliceblue;
+  font-family: 'Marcellus SC';
+  filter: drop-shadow(0 4vh 4vh rgb(156, 227, 255));
 }
 
-@media (max-width:767px) {
-    .main{
-        background-color: rgb(20, 10, 66);
-    }
-    .event-details h1 {
-        font-size: 3.5rem;
-    }
+@media (max-width: 767px) {
+  .main {
+    background-color: rgb(20, 10, 66);
+  }
+  .event-details h1 {
+    font-size: 3.5rem;
+  }
 
-    .event-details h3 {
-        font-size: 1.4rem;
-        color: rgb(255, 255, 255);
+  .event-details h3 {
+    font-size: 1.4rem;
+    color: rgb(255, 255, 255);
+  }
 
-    }
+  .event-details h4 {
+    font-size: 1.2rem;
+  }
 
-    .event-details h4 {
-        font-size: 1.2rem;
-    }
+  .register-btn {
+    margin-top: 1vh;
+    padding: 2vh 5vw;
+    border-width: 5px;
+    margin-right: 2vw;
+    font-size: 0.8rem;
+  }
 
+  .discord-btn {
+    margin-top: 1vh;
+    height: 5vh;
+    padding: 1vh 3vw;
+    border-width: 5px;
+  }
 
-    .register-btn {
-        margin-top: 1vh;
-        padding: 2vh 5vw;
-        border-width: 5px;
-        margin-right: 2vw;
-        font-size: 0.8rem;
-    }
+  .bg-section {
+    overflow: hidden;
+    height: 560vh;
+    max-height: 610vh;
+    background-color: rgb(20, 10, 66);
+  }
 
-    .discord-btn {
-        margin-top: 1vh;
-        height: 5vh;
-        padding: 1vh 3vw;
-        border-width: 5px;
+  .bg {
+    height: 95vh;
+    background-size: contain;
+  }
 
-    }
+  .bg2 {
+    transform: translateY(-3vh);
+    height: 65vh;
+  }
 
-    .bg-section {
-        overflow: hidden;
-        height: 560vh;
-        max-height: 610vh;
-        background-color: rgb(20, 10, 66);
+  .bg3 {
+    z-index: -3;
+    width: 100vw;
+    height: 65vh;
+    transform: translateY(-5vh);
+  }
 
-    }
+  .bg4 {
+    z-index: -3;
+    width: 100vw;
+    height: 65vh;
+    transform: translateY(-6vh);
+  }
 
-    .bg {
-        height: 95vh;
-        background-size: contain;
-    }
+  .bg5 {
+    z-index: -4;
+    width: 100vw;
+    height: 65vh;
 
-    .bg2 {
-        transform: translateY(-3vh);
-        height: 65vh;
-    }
+    transform: translateY(-8vh);
+  }
 
-    .bg3 {
-        z-index: -3;
-        width: 100vw;
-        height: 65vh;
-        transform: translateY(-5vh);
+  .bg6 {
+    z-index: -4;
+    width: 100vw;
+    height: 65vh;
+    transform: translateY(-9vh);
+  }
 
-    }
-
-    .bg4 {
-        z-index: -3;
-        width: 100vw;
-        height: 65vh;
-        transform: translateY(-6vh);
-    }
-
-    .bg5 {
-        z-index: -4;
-        width: 100vw;
-        height: 65vh;
-
-        transform: translateY(-8vh);
-    }
-
-    .bg6 {
-        z-index: -4;
-        width: 100vw;
-        height: 65vh;
-        transform: translateY(-9vh);
-    }
-
-    .bg7 {
-        z-index: -4;
-        width: 100vw;
-        height: 65vh;
-        transform: translateY(-10vh);
-        background-color: rgb(20, 10, 66);
-    }
-    .bg8{
-        z-index: -4;
-        width: 100vw;
-        height: 80vh;
-        transform: translateY(-12vh);
-        background-color: rgb(20, 10, 66);
-    }
-    /* .bg9{
+  .bg7 {
+    z-index: -4;
+    width: 100vw;
+    height: 65vh;
+    transform: translateY(-10vh);
+    background-color: rgb(20, 10, 66);
+  }
+  .bg8 {
+    z-index: -4;
+    width: 100vw;
+    height: 80vh;
+    transform: translateY(-12vh);
+    background-color: rgb(20, 10, 66);
+  }
+  /* .bg9{
         z-index: -4;
         width: 100vw;
         height: 50vh;
@@ -311,22 +297,20 @@ main {
         background-color: rgb(20, 10, 66);
     } */
 
-    .happyhacking{
-        display: block;
-        justify-content: center;
+  .happyhacking {
+    display: block;
+    justify-content: center;
+  }
 
-    }
+  .mushroomrock {
+    height: 30vh;
+  }
 
-    .mushroomrock {
-        height: 30vh;
-    }
-
-    .happyhacking h1 {
-        padding: 0;
-        margin: 0;
-        font-size: 4rem;
-        color: aliceblue;
-        font-family: "Marcellus SC";
-    }
-
+  .happyhacking h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 4rem;
+    color: aliceblue;
+    font-family: 'Marcellus SC';
+  }
 }

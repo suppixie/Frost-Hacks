@@ -1,54 +1,50 @@
 .hero {
-    /* width: 100vw; */
-    height: 100vh;
+  /* width: 100vw; */
+  height: 100vh;
 }
 
 .hero-btns {
-    position: relative;
-    display: block;
+  position: relative;
+  display: block;
 }
 .rock-mountain {
-    z-index: 3;
-    width: 100vh !important;
-    height: 100vh !important;
+  width: 112vw;
+  z-index: 3;
 }
 
 .rocks {
-    transform: translate(40vw, -20vh);
-    height: 90vh;
+  transform: translate(40vw, -20vh);
+  height: 90vh;
 
-    display: block;
-    background-size: cover;
+  display: block;
+  background-size: cover;
 }
 
-@media (max-width:767px) {
+@media (max-width: 767px) {
+  .snowboy {
+    position: absolute;
+    z-index: 3;
+    height: 10vh;
+    /* filter: drop-shadow(0 -1vh 3vh rgba(0, 0, 139, 0.586)); */
+    transform: translate(-10vw, 38vh);
+  }
 
-    .hero {
-        height: 90vh;
-    }
-    .snowboy {
-        position: absolute;
-        z-index: 3;
-        height: 10vh;
-        /* filter: drop-shadow(0 -1vh 3vh rgba(0, 0, 139, 0.586)); */
-        transform: translate(-10vw, 38vh);
-    }
+  .hero-btns {
+    z-index: 3 !important;
+    width: 28vw;
+  }
 
-    .hero-btns {
-        z-index: 3 !important;
-        width: 28vw;
-    }
+  .rock-mountain {
+    z-index: 1 !important;
+    width: 100%;
+  }
 
-    .rock-mountain {
-        z-index: 1 !important;
-        width: 100%;
-    }
-
-    .rocks {
-        z-index: 1;
-        position: absolute;
-        top: 420px;
-        left: -120px;
-        height: 55vh;
-    }
+  .rocks {
+    z-index: 1;
+    /* width: 100vw; */
+    position: absolute;
+    top: 420px;
+    left: -120px;
+    height: 55vh;
+  }
 }
