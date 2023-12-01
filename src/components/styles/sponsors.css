@@ -16,7 +16,7 @@
 }
 
 .sponsor-logo{
-    height: 15vh;
+    height: 7vw;
     background-color: rgba(255, 255, 255, 0.9);
     padding: 2vh;
     border-radius: 15px;
@@ -29,6 +29,7 @@
 .advantagelogo{
     background-color:  rgba(255, 255, 255, 0.9);
     color: black;
+    font-size: 3vw !important;
 }
 @media (max-width:767px) {
 
