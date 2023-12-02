@@ -1,5 +1,5 @@
 .about-section {
-    margin-top: 38vh;
+    margin-top: 50vh;
     width: 100%;
 }
 
@@ -82,7 +82,7 @@
 }
 @media (max-width:767px) {
     .about-section {
-        margin-top: 0;
+        margin-top: 18vh;
     }
 
     .about {
