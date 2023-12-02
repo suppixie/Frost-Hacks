@@ -41,6 +41,10 @@
         width: 6rem;
     }
 
+    .sponsor-section {
+        height: 45vh;
+    }
+
     .sponsors {
         margin-top: 5vh;
         height: 10vh;
