@@ -1,12 +1,19 @@
 import React from "react";
 import './styles/sponsors.css'
 import mlhlogo from '../assets/mlh-logo.png';
+import stickers from '../assets/stickers.png'
 import githublogo from '../assets/githublogo.png';
 import advantagelogo from '../assets/Advantage.png';
 
 export default function Sponsors() {
     return <section className="sponsor-section">
         <div className="sponsors">
+
+            {/* <h1>Prizes</h1> */}
+
+        
+
+
             <h1>Sponsors</h1>
             <div className="sponsor-list">
             <img  className="sponsor-logo" src={mlhlogo} alt="mlh logo"/>
@@ -14,6 +21,9 @@ export default function Sponsors() {
                     <p>AdVantage<br/>Community</p></div>
                     <img className="sponsor-logo" src={githublogo} alt="github"/>
                     </div>
+                    <br></br>
+                   <h2>Swag Partner</h2>
+                    <img  className="sponsor-logo" src={stickers} alt="StandOut Stickers Logo"/>
         </div>
     </section>;
 }
