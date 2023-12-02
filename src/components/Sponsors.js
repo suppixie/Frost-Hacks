@@ -11,7 +11,7 @@ export default function Sponsors() {
         <div className="sponsors">
 
             <h1>Prizes</h1>
-            <img style={{width:33+"vw", height:24+"vw"}} className="sponsor-logo" src={treasure} alt="mlh logo"/>
+            <img style={{width:33+"vw", height:24+"vw"}} className="sponsor-logo" src={treasure} alt="treasure"/>
 
 
         
