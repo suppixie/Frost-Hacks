@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import rocks from '../assets/Snowboy on mountain.gif';
 import Navbar from './Navbar';
 import '../components/styles/hero.css';
