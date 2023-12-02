@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Mooli&family=Cinzel:wght@700&family=Marcellus+SC&family=Poppins:wght@300;400&display=swap');
 
+::-webkit-scrollbar {
+  width: 0px;
+}
+
 body {
   scroll-behavior: smooth;
   top: 0;
