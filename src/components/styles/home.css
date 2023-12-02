@@ -231,7 +231,7 @@ main {
 
   .bg-section {
     overflow: hidden;
-    height: 640vh;
+    height: 555vh;
     /* max-height: 610vh; */
     background-color: rgb(20, 10, 66);
   }
