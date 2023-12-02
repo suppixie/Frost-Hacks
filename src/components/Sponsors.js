@@ -23,7 +23,7 @@ export default function Sponsors() {
                     </div>
                     <br></br>
                    <h2>Swag Partner</h2>
-                    <img  className="sponsor-logo" src={stickers} alt="StandOut Stickers Logo"/>
+                   <a href="https://www.standoutstickers.com/"> <img  className="sponsor-logo" src={stickers} alt="StandOut Stickers Logo"/></a>
         </div>
     </section>;
 }
