@@ -4,12 +4,15 @@ import mlhlogo from '../assets/mlh-logo.png';
 import stickers from '../assets/stickers.png'
 import githublogo from '../assets/githublogo.png';
 import advantagelogo from '../assets/Advantage.png';
+import treasure from '../assets/treasure.png'
 
 export default function Sponsors() {
     return <section className="sponsor-section">
         <div className="sponsors">
 
-            {/* <h1>Prizes</h1> */}
+            <h1>Prizes</h1>
+            <img style={{width:33+"vw", height:24+"vw"}} className="sponsor-logo" src={treasure} alt="mlh logo"/>
+
 
         
 
