@@ -18,10 +18,10 @@ export default function About() {
         {
           /* <img src={snow3} className="snow3"/> */
         }
-        <p>FROST HACKS, a thrilling 30-hour hackathon held at the prestigious Institute of Aeronautical Engineering (IARE),
+        <p>FROST HACKS, Hyderabad's first 30-hour Hackathon in collaboration with Major League Hacking held at Institute of Aeronautical Engineering (IARE),
           extends a warm invitation to all students who share a burning passion for coding, regardless of your current skill level,
-          there are no boundaries to your creativity. Our goal is to inspire participants to push their limits,
-          unleash their boundless creativity, and take significant strides towards honing their coding prowess.
+          there are no boundaries to your creativity. Our mission is to cultivate a dynamic and collaborative environment where students 
+          can immerse themselves in project-based learning, all while having an unforgettable time.
           Join us to push the limits of your coding abilities and embark on a journey of continuous improvement.
         </p>
       </div>
