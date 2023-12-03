@@ -3,7 +3,7 @@
     padding: 2vh 2vw ;
 
 }
-.sponsor-nav{
+.sponsorpage-nav{
     align-items: center;
     display: flex;
     text-align: left;
@@ -14,46 +14,46 @@
     padding-right: 0.5vw;
     padding-left: 2vw;
 }
-.sponsors-div{
+.sponsorspage-div{
     margin: 0;
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto auto;
     justify-content: center;
     align-items: center;}
    
 
-.sponsor-logos{
+.sponsorpage-logos{
     height: 10vh;
     background-color: rgba(255, 255, 255, 0.871);
     padding: 3vh;
     border-radius: 20px;
     margin-right: 2vw;}
 
-.advantagelogo{
+.sponsorspage-div .advantagelogo{
     display: flex;
     justify-content: center;
     font-size: x-large;
-    margin: 0;
     margin-right: 2vw;
-
     margin-block: 0;
 }
-.advantagelogo p{
+.sponsorspage-div .advantagelogo p{
     margin: 0;
-    padding-top: 0vh;
+    padding-top: 1vh;
 
 }
-.sponsor-content{
+.sponsorpage-content{
     color: white;
     font-size: x-large;
     padding: 0 10vw;
     margin-bottom: 5vh;
 }
 
-.sponsor-heading span{
+.sponsorpage-heading span{
     font-size: xx-large;
 }
-.sponsor-heading img{
+.sponsorpage-heading img{
     height: 11vh;
+    width: auto;
 }
 .mlh-trust-badge{
     display:block;
@@ -65,14 +65,14 @@
     width:10%;
     z-index:10000;
 }
-.sponsor-heading h1{
+.sponsorpage-heading h1{
     margin: 0;
     font-size: xxx-large;
     font-family:'grim-reaper';
     color: rgb(6, 6, 88);
 
 }
-.sponsor-button{
+.sponsorpage-button{
    border: 3px solid white;
    border-radius: 20px;
    background-color: rgb(70, 70, 182);
@@ -81,10 +81,10 @@
    font-size: larger;
    cursor: pointer;
 }
-.sponsor-button:hover{
+.sponsorpage-button:hover{
     transform: scale(1.1);
 }
-.sponsor-button a{
+.sponsorpage-button a{
     text-decoration: none;
     color: white;
 }
@@ -116,9 +116,24 @@
 
 
 @media (max-width: 767px) {
+    .sponsorspage-div .advantagelogo{
+        display: flex;
+        width: auto;
+    }
+
     .mlh-trust-badge img {
        width: 3rem !important;
     }
+    .sponsorspage-div{
+        grid-template-columns: auto;
+        justify-content: center;
 
-    
+    }
+    .packages{
+        font-size: smaller;
+        margin: 8vh 2vw;
+    }
+    .package-details{
+    grid-template-columns: 22vw 16vw 16vw 16vw 16vw;
+    }
 }

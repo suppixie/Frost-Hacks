@@ -8,7 +8,7 @@ Prizes
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 35vh;
+  margin-bottom: 10vh;
 }
 
 .prize-bg {
@@ -57,12 +57,11 @@ Sponsors
 
 .sponsors {
   margin-top: 15vh;
-  /* color: white; */
-  height: 20vh;
+  color: white;
 }
 
 .sponsor-section {
-  height: 70vw;
+  /* height: auto; */
 }
 .sponsor-heading {
   font-size: 2.5rem;
@@ -81,23 +80,33 @@ Sponsors
   padding: 2vh;
   border-radius: 15px;
   margin-right: 1vw;
-}
+  /* width: auto;*/
+} 
 .sponsor-list {
   display: flex;
   justify-content: center;
 }
-.advantagelogo {
-  background-color: rgba(255, 255, 255, 0.9);
+.advantagelogo{
+background-color: rgba(255, 255, 255, 0.9);
   color: black;
-  font-size: 3vw !important;
+  font-size: 2vw;
+display: flex;}
+
+.advantagelogo p{
+  margin: 2vh 0;
 }
+
 @media (max-width: 767px) {
-  .advantagelogo {
-    width: 6rem;
+  .advantagelogo{
+    display: flex;
+    align-items: center;
+  }
+  .advantagelogo img{
+    height: 6vh;
   }
 
   .sponsor-section {
-    height: 45vh;
+    height: 60vh;
   }
 
   .sponsors {
@@ -115,11 +124,11 @@ Sponsors
     font-size: 1rem;
   }
 
-  .sponsors {
+  /* .sponsors {
     margin-top: 15vh;
     color: white;
     height: 20vh;
-  }
+  } */
 
   .prizes {
     margin-top: 3vh;

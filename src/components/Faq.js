@@ -34,7 +34,7 @@ export default function Faq() {
           </label>
           <div className={`answer ${openIndex === 1 ? 'visible' : ''}`}>
             <p>
-              Frost Hacks 2023 will be held on January 20th to 21st, 2023 at the
+              Frost Hacks 2024 will be held on January 20th to 21st, 2024 at the
               Institute of Aeronautical Engineering(IARE).
             </p>
           </div>
@@ -60,7 +60,7 @@ export default function Faq() {
           </label>
           <div className={`answer ${openIndex === 2 ? 'visible' : ''}`}>
             <p>
-              Stay connected with us by joining our Discord server. We'll keep
+              Stay connected with us by following our Instagram @frosthacks.hyd We'll keep
               you informed about the latest news and announcements.
             </p>
           </div>
@@ -84,7 +84,7 @@ export default function Faq() {
           <div className={`answer ${openIndex === 3 ? 'visible' : ''}`}>
             <p>
               We've got lots of food and snacks for everyone, stay hacky and
-              hydrated in our cozy & free stay.
+              hydrated.
             </p>
           </div>
         </div>
@@ -107,7 +107,7 @@ export default function Faq() {
           <div className={`answer ${openIndex === 4 ? 'visible' : ''}`}>
             <p>
               We welcome undergraduates and graduate students of all majors,
-              backgrounds, and skill levels to come create. Unfortunately, if
+              backgrounds, and skill levels to come create. <br/>Unfortunately, if
               you are under 18, you will not be able to attend.
             </p>
           </div>
@@ -157,6 +157,7 @@ export default function Faq() {
           </div>
         </div>
 
+       
         <div className="questions">
           <input
             hidden
@@ -169,33 +170,10 @@ export default function Faq() {
             className="question-label"
             onClick={() => toggleAnswer(7)}
           >
-            <h4>Can I participate if I'm under 18?</h4>
+            <h4>I have more questions</h4>
             <span>{openIndex === 7 ? '▲' : '▼'}</span>
           </label>
           <div className={`answer ${openIndex === 7 ? 'visible' : ''}`}>
-            <p>
-              Unfortunately, if you are under 18, you will not be able to attend
-              Frost Hacks.
-            </p>
-          </div>
-        </div>
-
-        <div className="questions">
-          <input
-            hidden
-            type="checkbox"
-            id="question8"
-            className="question-checkbox"
-          />
-          <label
-            htmlFor="question8"
-            className="question-label"
-            onClick={() => toggleAnswer(8)}
-          >
-            <h4>I have more questions</h4>
-            <span>{openIndex === 8 ? '▲' : '▼'}</span>
-          </label>
-          <div className={`answer ${openIndex === 8 ? 'visible' : ''}`}>
             <p>
               You can email us at frosthackshyd@gmail.com or reach out on
               Instagram: @frosthacks.hyd

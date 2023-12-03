@@ -1,6 +1,6 @@
 .hero {
   /* width: 100vw; */
-  height: 69vh;
+  height: 70vh;
 }
 
 .hero-btns {
@@ -43,7 +43,7 @@
     z-index: 1;
     /* width: 100%; */
     position: relative;
-    top: 180px;
+    top: 125px;
     left: -120px;
     height: 55vh;
   }

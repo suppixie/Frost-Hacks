@@ -17,7 +17,7 @@ export default function Navbar() {
                         <li><a href="#about">About</a></li>
                         <li><a href="#tracks">Tracks</a></li>
                         <li><a href="#schedule">Schedule</a></li>
-                        <li><a href="/">Prizes</a></li>
+                        <li><a href="#prizes">Prizes</a></li>
                         <li><a href="#faq">FAQ</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
@@ -34,7 +34,7 @@ export default function Navbar() {
                         <p><a href="#about">About</a></p>
                         <p><a href="#tracks">Tracks</a></p>
                         <p><a href="#schedule">Schedule</a></p>
-                        <p><a href="/">Prizes</a></p>
+                        <p><a href="#prizes">Prizes</a></p>
                         <p><a href="#faq">FAQ</a></p>
                         <p><a href="#contact">Contact</a></p>
                         </div>

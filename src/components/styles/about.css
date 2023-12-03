@@ -33,7 +33,6 @@
     margin: 0;
     color: rgb(35, 34, 53);
     border: none;
-    line-height: 25px;
 }
 
 .info h1 {
@@ -53,6 +52,8 @@
     text-align: center;
     margin: 0;
     font-weight: 500;
+    line-height: 25px;
+
 }
 
 @keyframes float {
@@ -102,8 +103,8 @@
     }
 
     .rock-holder {
-        height: 22vh;
-        width: 30vw;
+        height: 20vh;
+        width: 25vw;
     }
 
     .info {
@@ -113,10 +114,15 @@
     .info h1 {
         font-size: 1.5rem;
         padding: 2.5vw;
+        position: relative;
+        z-index: 4;
     }
 
     .info p {
         font-size: 0.8rem;
+        margin-block: 0;
+        line-height: 15px;
+
     }
 
     @keyframes float {
