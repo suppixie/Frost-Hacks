@@ -1,5 +1,5 @@
 .navbar {
-    margin: 2vh 3vw;
+    margin: 2vh 3vw 3vh 3vw;
     display: flex;
 
 }
@@ -43,7 +43,7 @@
     .navbar{
         align-items: center;
         justify-content: space-between;
-        margin: 1vh 3vw;
+        margin: 1vh 3vw 4vh 3vw;
     }
     .navbar ul{
         display: none;

@@ -102,32 +102,29 @@ main {
 }
 
 .event-details h1 {
-  color: rgb(35, 34, 53);
-  margin: 0;
+  color: #122158;
+  margin: 0 0 1vh 0;
   font-size: 6.5rem;
   text-align: left;
-  /* font-family:"cinzel"; */
   font-family: 'grim-reaper';
-  /* font-family:" breathe-fire"; */
-  /* font-family:"death-star"; */
-  /* font-family:" dragon-hunter"; */
   font-weight: bold;
+  letter-spacing: 4px;
+}
+
+.event-details h4 {
+  color: #122158;
+  font-size: 1.6rem;
+  font-family: 'Trebuchet MS', sans-serif;
+  margin: 1vh 0 2vh 0;
 }
 
 .event-details h3 {
   margin: 0;
   text-align: left;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-family: 'Trebuchet MS', sans-serif;
 }
 
-.event-details h4 {
-  color: rgb(20, 10, 66);
-  font-size: 1.7rem;
-  font-family: 'Trebuchet MS', sans-serif;
-  margin: 2vh 0;
-  margin-top: 0;
-}
 
 .register-btn {
   padding: 3vw;
@@ -201,6 +198,10 @@ main {
   filter: drop-shadow(0 4vh 4vh rgb(156, 227, 255));
 }
 
+.happyhacking p {
+  margin-bottom: 0;
+}
+
 @media (max-width: 767px) {
   .main {
     background-color: rgb(20, 10, 66);
@@ -208,15 +209,16 @@ main {
   .event-details h1 {
     font-size: 3.5rem;
   }
+  
+  .event-details h4 {
+    font-size: 1rem;
+  }
 
   .event-details h3 {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     color: rgb(255, 255, 255);
   }
 
-  .event-details h4 {
-    font-size: 1.2rem;
-  }
 
   .register-btn {
     margin-top: 1vh;
@@ -316,5 +318,9 @@ main {
     font-size: 4rem;
     color: aliceblue;
     font-family: 'Marcellus SC';
+  }
+
+  .happyhacking p {
+    margin-bottom: 0;
   }
 }
