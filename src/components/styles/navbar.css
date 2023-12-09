@@ -8,14 +8,14 @@
     list-style: none;
     text-decoration: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     /* position: absolute; */
     font-weight: 500;
-    padding-top: 2vh;
+    /* padding-top: 2vh; */
     background-color: rgba(183, 236, 255, 0.3);
     border-radius: 15px;
     margin: 1vh;
-
 }
 
 .navbar ul li a {
