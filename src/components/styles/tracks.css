@@ -1,5 +1,5 @@
 .tracks-section {
-    margin: 0 2vw;
+    margin: 0 3vw;
 }
 
 .tracks-section h2 {
@@ -14,11 +14,12 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    margin-bottom: 10vh;
 
 }
 
 .tracks {
-    padding: 4vh 4vw;
+    padding: 4vh 2vw;
     display: flex;
     /* grid-template-columns: 40% 40%; */
 }
@@ -28,12 +29,12 @@
 .themes {
     background-image: url(https://i.pinimg.com/originals/be/5e/71/be5e71a29b38a1c15cc266a9a360e5ae.png);
     background-size: cover;
-    border: 2vh solid rgb(35, 34, 53);
+    border: 1vh solid rgb(35, 34, 53);
     border-radius: 16px;
     border-style: outset;
     color: rgb(55, 40, 168);
-    width: 20vw;
-    margin-right: 3vw;
+    width: 16vw;
+    margin-right: 2vw;
     background-color: transparent;
     padding: 1vh 1vw;
     height: auto;
@@ -41,11 +42,11 @@
 }
 
 .themes h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     /* width: 10vw; */
     text-align: right;
     margin: 0;
-    height: 15vh;
+    height: 12vh;
     overflow: hidden;
     font-family: "Marcellus SC";
 
@@ -68,12 +69,18 @@
 .track2 {
     transform: skewX(6deg) translateY(-8%);
 }
-
-.track3 {
-    transform: skewX(-6deg) translateY(-8%);
+.track3{
+    transform: skewX(4deg) translateY(-15%);
 }
 
-.track4 {
+.track4, .track5{
+    transform: skewX(-4deg) translateY(-15%);
+
+}
+.track5{
+    transform: skewX(-6deg) translateY(-8%);
+}
+.track6 {
     transform: skewX(-12deg) translateY(10%);
     margin-right: 0;
 }
