@@ -2,9 +2,16 @@ import React from 'react';
 import './styles/sponsors.css';
 import mlhlogo from '../assets/mlh-logo.png';
 import stickers from '../assets/stickers.png'
-import githublogo from '../assets/githublogo.png';
+// import githublogo from '../assets/githublogo.png';
 import advantagelogo from '../assets/Advantage.png';
 import treasure from '../assets/treasure.png';
+import sorobann from '../assets/sorobann.png';
+import starknet from '../assets/starknet.png';
+import taipy from '../assets/taipy.png';
+import cloudflare from '../assets/Cloudflare_Logo.svg.png';
+import godaddy from '../assets/godaddy-registry.png';
+import mongodb from '../assets/mongodb.png';
+import streamlit from '../assets/streamlit.png';
 
 export default function Sponsors() {
   return (
@@ -31,11 +38,27 @@ export default function Sponsors() {
               Community
             </p>
           </div>
-          <img className="sponsor-logo" src={githublogo} alt="github" />
+          {/* <img className="sponsor-logo" src={githublogo} alt="github" /> */}
         </div>
-        <br></br>
-        <h2>Swag Partner</h2>
-                   <a href="https://www.standoutstickers.com/"> <img  className="sponsor-logo" src={stickers} alt="StandOut Stickers Logo"/></a> 
+        <div className='swag-partner'>
+          <br></br>
+          <h2>Swag Partner</h2>
+                    <a href="https://www.standoutstickers.com/"> <img  className="sponsor-logo" src={stickers} alt="StandOut Stickers Logo"/></a> 
+        </div>
+        <h2> Category Sponsors</h2>
+        <div className='category-sponsors'>
+          <img className="sponsor-logo" src={starknet} alt="starknet"/>
+          <img className="sponsor-logo" src={sorobann} alt="sorobann"/>
+          <img className="sponsor-logo" src={taipy} alt="taipy"/>
+          <img className="sponsor-logo" src={godaddy} alt="godaddy"/>
+          <img className="sponsor-logo" src={mongodb} alt="mongodb"/>
+          <img className="sponsor-logo" src={cloudflare} alt="cloudflare"/>
+          <img className="sponsor-logo" src={streamlit} alt="streamlit"/>
+
+
+
+
+        </div>
       </div>
     </section>
   );

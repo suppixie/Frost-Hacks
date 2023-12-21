@@ -56,6 +56,7 @@ Sponsors
 */
 
 .sponsors {
+  margin: 0 10vw;
   margin-top: 15vh;
   color: white;
 }
@@ -80,11 +81,19 @@ Sponsors
   padding: 2vh;
   border-radius: 15px;
   margin-right: 1vw;
-  /* width: auto;*/
+
 } 
 .sponsor-list {
   display: flex;
   justify-content: center;
+}
+.swag-partner{
+  margin-bottom:6vh ;
+}
+.category-sponsors img{
+  height: 10vh;
+  max-width:25vw;
+  margin-bottom: 3vh;
 }
 .advantagelogo{
 background-color: rgba(255, 255, 255, 0.9);
