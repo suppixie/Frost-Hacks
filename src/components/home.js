@@ -54,6 +54,7 @@ const Home = () => {
             <div className="happyhacking">
                 <h1>HAPPY HACKING!</h1>
                 <p>Made with ♡</p>
+                <br/>
             </div>
         </main>
     );

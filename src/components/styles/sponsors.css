@@ -115,7 +115,12 @@ display: flex;}
   }
 
   .sponsor-section {
-    height: 60vh;
+    height: 110vh;
+  }
+  .category-sponsors img{
+    height: 3vh;
+    max-width:auto;
+    margin-bottom: 3vh;
   }
 
   .sponsors {
