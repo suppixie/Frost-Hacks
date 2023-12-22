@@ -25,7 +25,7 @@ main {
   position: absolute;
   background-color: rgb(20, 10, 66);
   overflow: hidden;
-  height: 1000vh;
+  /* height: 1000vh; */
   width: 100vw;
 }
 
@@ -87,6 +87,13 @@ main {
   transform: translateY(-70vh);
   background-color: rgb(20, 10, 66);
 }
+.bg10{
+  z-index: -3;
+  width: 100vw;
+  transform: translateY(-75vh);
+  background-color: rgb(20, 10, 66);
+}
+
 
 /* @keyframes turn {
     0%{

@@ -84,7 +84,7 @@ export default function Faq() {
           <div className={`answer ${openIndex === 3 ? 'visible' : ''}`}>
             <p>
               We've got lots of food and snacks for everyone, stay hacky and
-              hydrated.
+              hydrated. Stay will be arranged at the Campus.
             </p>
           </div>
         </div>
@@ -152,12 +152,11 @@ export default function Faq() {
             <p>
               Participate individually or in a team of up to 4 people. Your team
               members can be from other colleges too. If you are looking for a
-              team, build one in the team-building channel on Discord.
+              team, build one in the team-building channel on Discord which can be accessed once shortlisted.
             </p>
           </div>
         </div>
 
-       
         <div className="questions">
           <input
             hidden
@@ -170,10 +169,33 @@ export default function Faq() {
             className="question-label"
             onClick={() => toggleAnswer(7)}
           >
-            <h4>I have more questions</h4>
+            <h4>Will Travel expenses be covered by the Hackathon Organizers?</h4>
             <span>{openIndex === 7 ? '▲' : '▼'}</span>
           </label>
           <div className={`answer ${openIndex === 7 ? 'visible' : ''}`}>
+            <p>
+              Unfortunately, Travel expenses will not be covered by the organizers.
+              Kindly understand, as Frost Hacks is a free event, we have limited monetary resources.
+            </p>
+          </div>
+        </div>
+       
+        <div className="questions">
+          <input
+            hidden
+            type="checkbox"
+            id="question8"
+            className="question-checkbox"
+          />
+          <label
+            htmlFor="question8"
+            className="question-label"
+            onClick={() => toggleAnswer(8)}
+          >
+            <h4>I have more questions</h4>
+            <span>{openIndex === 8 ? '▲' : '▼'}</span>
+          </label>
+          <div className={`answer ${openIndex === 8 ? 'visible' : ''}`}>
             <p>
               You can email us at frosthackshyd@gmail.com or reach out on
               Instagram: @frosthacks.hyd

@@ -41,6 +41,7 @@ const Home = () => {
                 <img className="bg7" src={art14} alt="bg" />
                 <img className="bg8" src={art14} alt="bg" />
                 <img className="bg9" src={art14} alt="bg" />
+                <img className="bg10" src={art14} alt="bg" />
             </section>
             <Hero />
             <About />
