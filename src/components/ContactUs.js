@@ -7,6 +7,7 @@ import devpost from "../assets/devpost.png";
 import coc from "../assets/coc.png";
 import twitter from "../assets/twitter.png";
 import sponsor from "../assets/sponsor.png";
+import community from "../assets/community.png";
 import './styles/contactUs.css'
 
 export default function ContactUs() {
@@ -54,6 +55,12 @@ export default function ContactUs() {
                         <img src={sponsor} className="icons sponsor" alt="icon" />
                     </div>
                     <Link to='/Sponsors'>Sponsor Us</Link>
+                </div>
+                <div>
+                    <div className="social-icons">
+                        <img src={community} className="icons sponsor" alt="icon" />
+                    </div>
+                    <a href="https://forms.gle/9VB3ZBdu6KpzQ3U99" target="_blank" rel="noreferrer">Community Partners Form</a>
                 </div>
 
                 <div>

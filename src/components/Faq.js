@@ -84,7 +84,7 @@ export default function Faq() {
           <div className={`answer ${openIndex === 3 ? 'visible' : ''}`}>
             <p>
               We've got lots of food and snacks for everyone, stay hacky and
-              hydrated. Stay will be arranged at the Campus.
+              hydrated. Two large rooms for resting/sleeping will be arranged at the Campus (separately for men and women).
             </p>
           </div>
         </div>
