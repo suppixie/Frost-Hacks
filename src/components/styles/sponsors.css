@@ -104,13 +104,7 @@ display: flex;}
 .advantagelogo p{
   margin: 2vh 0;
 }
-.catalog-full-logo img{
-  
-}
-.catalog-full-logo{
-  color: black;
-  text-align: center;
-}
+
 @media (max-width: 767px) {
   .advantagelogo{
     display: flex;
