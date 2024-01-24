@@ -22,7 +22,7 @@ export default function Sponsors() {
           <div className="prize-bg">
             <div className="prize-pool">
               <h2>Prize Pool</h2>
-              <h1>₹50,000</h1>
+              <h1>₹25,000</h1>
             </div>
             <img className="prize" src={treasure} alt="treasure" />
           </div>
